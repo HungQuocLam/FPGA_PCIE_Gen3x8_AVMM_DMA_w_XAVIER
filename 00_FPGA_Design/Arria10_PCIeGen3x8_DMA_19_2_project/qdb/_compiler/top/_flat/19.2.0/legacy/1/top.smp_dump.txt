@@ -1,0 +1,152 @@
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|write_data_mover_2|dma_wr_wdalign|wralign_data_state
+Name wralign_data_state.WRALIGN_DATA_WAIT wralign_data_state.WRALIGN_DATA_BUFF_FULL wralign_data_state.WRALIGN_DATA_PAUSE wralign_data_state.WRALIGN_DATA_ACCESSIVE_RECOVER wralign_data_state.WRALIGN_DATA_32B_PIPE wralign_data_state.WRALIGN_DATA_CHECK_ACCESSIVE_DATA wralign_data_state.WRALIGN_DATA_32B_PIPE2 wralign_data_state.WRALIGN_DATA_SEND_32B_BOUNDARY2 wralign_data_state.WRALIGN_DATA_SEND_LAST wralign_data_state.WRALIGN_DATA_SEND_MAX wralign_data_state.WRALIGN_DATA_SEND_4KB_BOUNDARY wralign_data_state.WRALIGN_DATA_SEND_32B_BOUNDARY wralign_data_state.WRALIGN_DATA_PREFETCH wralign_data_state.WRALIGN_DATA_SEND_IMMWR wralign_data_state.WRALIGN_DATA_DESC_DECODE wralign_data_state.WRALIGN_DATA_LINES_CALC_PIPE wralign_data_state.WRALIGN_DATA_RD_DESC wralign_data_state.WRALIGN_DATA_IDLE 
+wralign_data_state.WRALIGN_DATA_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+wralign_data_state.WRALIGN_DATA_RD_DESC 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+wralign_data_state.WRALIGN_DATA_LINES_CALC_PIPE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+wralign_data_state.WRALIGN_DATA_DESC_DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+wralign_data_state.WRALIGN_DATA_SEND_IMMWR 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_PREFETCH 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_SEND_32B_BOUNDARY 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_SEND_4KB_BOUNDARY 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_SEND_MAX 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_SEND_LAST 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_SEND_32B_BOUNDARY2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_32B_PIPE2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_CHECK_ACCESSIVE_DATA 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_32B_PIPE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_ACCESSIVE_RECOVER 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_PAUSE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_BUFF_FULL 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+wralign_data_state.WRALIGN_DATA_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|write_data_mover_2|dma_wr_wdalign|align_header_state
+Name align_header_state.ALIGN_HDR_PIPE3 align_header_state.ALIGN_HDR_PIPE2 align_header_state.ALIGN_HDR_PIPE1 align_header_state.ALIGN_HDR_MAX align_header_state.ALIGN_HDR_4KB align_header_state.ALIGN_HDR_32B align_header_state.ALIGN_HDR_IMM_WR align_header_state.ALIGN_HDR_DECODE align_header_state.ALIGN_HDR_LATCH align_header_state.ALIGN_HDR_IDLE 
+align_header_state.ALIGN_HDR_IDLE 0 0 0 0 0 0 0 0 0 0 
+align_header_state.ALIGN_HDR_LATCH 0 0 0 0 0 0 0 0 1 1 
+align_header_state.ALIGN_HDR_DECODE 0 0 0 0 0 0 0 1 0 1 
+align_header_state.ALIGN_HDR_IMM_WR 0 0 0 0 0 0 1 0 0 1 
+align_header_state.ALIGN_HDR_32B 0 0 0 0 0 1 0 0 0 1 
+align_header_state.ALIGN_HDR_4KB 0 0 0 0 1 0 0 0 0 1 
+align_header_state.ALIGN_HDR_MAX 0 0 0 1 0 0 0 0 0 1 
+align_header_state.ALIGN_HDR_PIPE1 0 0 1 0 0 0 0 0 0 1 
+align_header_state.ALIGN_HDR_PIPE2 0 1 0 0 0 0 0 0 0 1 
+align_header_state.ALIGN_HDR_PIPE3 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - top_hw|emif_0|emif_0|arch|arch_inst|cal_counter_inst|non_hps.counter_state
+Name non_hps.counter_state.COUNT_CAL non_hps.counter_state.IDLE non_hps.counter_state.STOP non_hps.counter_state.INIT 
+non_hps.counter_state.INIT 0 0 0 0 
+non_hps.counter_state.STOP 0 0 1 1 
+non_hps.counter_state.IDLE 0 1 0 1 
+non_hps.counter_state.COUNT_CAL 1 0 0 1 
+
+State Machine - top_hw|emif_0|emif_0|col_if|colmaster|transacto|p2m|state
+Name state.READ_SEND_WAIT state.READ_DATA_WAIT state.READ_SEND_ISSUE state.READ_CMD_WAIT state.WRITE_WAIT state.RETURN_PACKET state.READ_ASSERT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.READY 
+state.READY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - top_hw|dut|dut|altpcie_a10_hip_pipen1b|g_xcvr.altpcie_a10_hip_pllnphy|g_pll.fpll_g3|fpll_g3|phase_en_pulse|state
+Name state.IDLE state.WAIT state.PULSE 
+state.IDLE 0 0 0 
+state.PULSE 1 0 1 
+state.WAIT 1 1 0 
+
+State Machine - top_hw|dut|dut|altpcie_a10_hip_pipen1b|g_xcvr.altpcie_a10_hip_pllnphy|g_pll.fpll_g3|fpll_g3|dps_reset_gen_1|state
+Name state.GEN_DONE_2 state.GEN_DONE_1 state.GEN_DONE_DELAY_1 state.GEN_DONE_DELAY state.GEN_RESET_DELAY_4 state.GEN_RESET_DELAY_3 state.GEN_RESET_DELAY_2 state.GEN_RESET_DELAY_1 state.GEN_RESET_2 state.GEN_RESET_1 state.WAIT_CORE_DONE state.GEN_RESET_DELAY state.WAIT_PE_PULSE 
+state.WAIT_PE_PULSE 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GEN_RESET_DELAY 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.WAIT_CORE_DONE 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GEN_RESET_1 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GEN_RESET_2 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GEN_RESET_DELAY_1 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GEN_RESET_DELAY_2 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GEN_RESET_DELAY_3 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GEN_RESET_DELAY_4 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.GEN_DONE_DELAY 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.GEN_DONE_DELAY_1 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.GEN_DONE_1 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.GEN_DONE_2 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_READ_DATA 1 1 0 
+read_state.ST_PADDED 1 0 1 
+
+State Machine - top_hw|mm_interconnect_0|onchip_memory2_0_s2_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - top_hw|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|arbiter_inst|arb_burst_state
+Name arb_burst_state.ARB_BURST_IDLE arb_burst_state.ARB_BURST_HPRXM_GRANT arb_burst_state.ARB_BURST_WR_GRANT 
+arb_burst_state.ARB_BURST_IDLE 0 0 0 
+arb_burst_state.ARB_BURST_WR_GRANT 1 0 1 
+arb_burst_state.ARB_BURST_HPRXM_GRANT 1 1 0 
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|write_data_mover_2|dma_wr_tlpgen|tlpgen_state
+Name tlpgen_state.TLPGEN_CHECK_PAYLOAD tlpgen_state.TLPGEN_CREDIT_PIPE tlpgen_state.TLPGEN_SEND tlpgen_state.TLPGEN_YIELD_SIDE_FIFO tlpgen_state.TLPGEN_ARB_REQ tlpgen_state.TLPGEN_ARB_REQ_FOR_SIDE_FIFO tlpgen_state.TLPGEN_IDLE 
+tlpgen_state.TLPGEN_IDLE 0 0 0 0 0 0 0 
+tlpgen_state.TLPGEN_ARB_REQ_FOR_SIDE_FIFO 0 0 0 0 0 1 1 
+tlpgen_state.TLPGEN_ARB_REQ 0 0 0 0 1 0 1 
+tlpgen_state.TLPGEN_YIELD_SIDE_FIFO 0 0 0 1 0 0 1 
+tlpgen_state.TLPGEN_SEND 0 0 1 0 0 0 1 
+tlpgen_state.TLPGEN_CREDIT_PIPE 0 1 0 0 0 0 1 
+tlpgen_state.TLPGEN_CHECK_PAYLOAD 1 0 0 0 0 0 1 
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|write_data_mover_2|dma_wr_readmem|wrdma_rd_state
+Name wrdma_rd_state.WRDMA_RD_ADDER_PIPE wrdma_rd_state.WRDMA_RD_SEND_LAST wrdma_rd_state.WRDMA_RD_SEND_TAIL wrdma_rd_state.WRDMA_RD_SEND_MAX wrdma_rd_state.WRDMA_RD_SEND_HEAD wrdma_rd_state.WRDMA_RD_CHECK_DESC wrdma_rd_state.WRDMA_RD_POP_DESC wrdma_rd_state.WRDMA_RD_IDLE wrdma_rd_state.WRDMA_RD_UPDATE_DESC 
+wrdma_rd_state.WRDMA_RD_IDLE 0 0 0 0 0 0 0 0 0 
+wrdma_rd_state.WRDMA_RD_POP_DESC 0 0 0 0 0 0 1 1 0 
+wrdma_rd_state.WRDMA_RD_CHECK_DESC 0 0 0 0 0 1 0 1 0 
+wrdma_rd_state.WRDMA_RD_SEND_HEAD 0 0 0 0 1 0 0 1 0 
+wrdma_rd_state.WRDMA_RD_SEND_MAX 0 0 0 1 0 0 0 1 0 
+wrdma_rd_state.WRDMA_RD_SEND_TAIL 0 0 1 0 0 0 0 1 0 
+wrdma_rd_state.WRDMA_RD_SEND_LAST 0 1 0 0 0 0 0 1 0 
+wrdma_rd_state.WRDMA_RD_ADDER_PIPE 1 0 0 0 0 0 0 1 0 
+wrdma_rd_state.WRDMA_RD_UPDATE_DESC 0 0 0 0 0 0 0 1 1 
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|write_data_mover_2|dma_wr_wdalign|sent_dw_sel_reg
+Name sent_dw_sel_reg.000 sent_dw_sel_reg.100 sent_dw_sel_reg.010 sent_dw_sel_reg.001 
+sent_dw_sel_reg.000 0 0 0 0 
+sent_dw_sel_reg.001 1 0 0 1 
+sent_dw_sel_reg.010 1 0 1 0 
+sent_dw_sel_reg.100 1 1 0 0 
+
+State Machine - top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|write_data_mover_2|dma_wr_wdalign|tlp_header_fifo|subfifo|fifo_state|sm_emptyfull
+Name state_middle state_full state_empty 
+state_empty 0 0 0 
+state_middle 1 0 1 
+state_full 0 1 1 
+
+State Machine - Summary

@@ -1,0 +1,399 @@
+Fitter Route Stage Report for top
+Wed Aug 14 12:21:14 2019
+Quartus Prime Version 19.2.0 Build 57 06/24/2019 SJ Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. PLL Delay Chain Settings
+  3. Delay Chain Summary
+  4. Routing Usage Summary
+  5. Route Messages
+  6. Estimated Delay Added for Hold Timing Summary
+  7. Estimated Delay Added for Hold Timing Details
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++--------------------------------------------------------------------------+
+; PLL Delay Chain Settings                                                 ;
++--------------------------------------------------------------------+-----+
+;                                                                    ;     ;
++--------------------------------------------------------------------+-----+
+; top_hw|emif_0|emif_0|arch|arch_inst|pll_inst|pll_inst              ;     ;
+;     -- Delay Chain Setting                                         ; N/A ;
+;     -- PLL Output Counter 0                                        ;     ;
+;             -- C Counter Delay Chain Setting                       ; 0   ;
+;             -- LVDS Delay Chain Setting                            ; 0   ;
+;     -- PLL Output Counter 1                                        ;     ;
+;             -- C Counter Delay Chain Setting                       ; 0   ;
+;             -- LVDS Delay Chain Setting                            ; 0   ;
+;     -- PLL Output Counter 2                                        ;     ;
+;             -- C Counter Delay Chain Setting                       ; 0   ;
+;             -- LVDS Delay Chain Setting                            ; 0   ;
+;     -- PLL Output Counter 3                                        ;     ;
+;             -- C Counter Delay Chain Setting                       ; 0   ;
+;             -- LVDS Delay Chain Setting                            ; 0   ;
+;     -- PLL Output Counter 4                                        ;     ;
+;             -- C Counter Delay Chain Setting                       ; 0   ;
+;                                                                    ;     ;
+; top_hw|emif_0|emif_0|arch|arch_inst|pll_inst|pll_inst~_Duplicate   ;     ;
+;     -- Delay Chain Setting                                         ; N/A ;
+;                                                                    ;     ;
+; top_hw|emif_0|emif_0|arch|arch_inst|pll_inst|pll_inst~_Duplicate_1 ;     ;
+;     -- Delay Chain Setting                                         ; N/A ;
+;                                                                    ;     ;
++--------------------------------------------------------------------+-----+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                                                                                                    ;
++-----------------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; Name                  ; Pin Type ; Input Delay Chain 0 ; Output Delay Chain ; OE Delay Chain ; IO_12_LANE Input Data Delay Chain ; IO_12_LANE Input Strobe Delay Chain ;
++-----------------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; dk_alive_led          ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_reset_n[0] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out0    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out1    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out2    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out3    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out4    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out5    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out6    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out7    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_ck[0]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_ck_n[0]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[0]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[1]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[2]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[3]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[4]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[5]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[6]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[7]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[8]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[9]       ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[10]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[11]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[12]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[13]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[14]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[15]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_a[16]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_act_n[0]   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_ba[0]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_ba[1]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_bg[0]      ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_cke[0]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_cs_n[0]    ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_odt[0]     ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_mem_dqs[0]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[1]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[2]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[3]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[4]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[5]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[6]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs[7]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[0]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[1]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[2]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[3]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[4]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[5]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[6]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dqs_n[7]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; 0                                   ;
+; emif_0_mem_dq[0]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[1]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[2]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[3]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[4]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[5]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[6]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[7]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[8]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[9]      ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[10]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[11]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[12]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[13]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[14]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[15]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[16]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[17]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[18]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[19]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[20]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[21]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[22]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[23]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[24]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[25]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[26]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[27]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[28]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[29]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[30]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[31]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[32]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[33]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[34]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[35]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[36]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[37]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[38]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[39]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[40]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[41]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[42]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[43]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[44]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[45]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[46]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[47]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[48]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[49]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[50]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[51]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[52]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[53]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[54]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[55]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[56]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[57]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[58]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[59]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[60]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[61]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[62]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dq[63]     ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[0]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[1]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[2]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[3]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[4]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[5]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[6]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_mem_dbi_n[7]   ; Bidir    ; 0                   ; 0                  ; 0              ; 0                                 ; --                                  ;
+; emif_0_oct_rzqin      ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; perstn_perstn         ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; emif_0_pll_ref_clk    ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in0     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in1     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in2     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in3     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in4     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in5     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in6     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in7     ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; refclk_clk            ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_tx_out0(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out1(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out2(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out3(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out4(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out5(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out6(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; hip_serial_tx_out7(n) ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; emif_0_pll_ref_clk(n) ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in0(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in1(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in2(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in3(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in4(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in5(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in6(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; hip_serial_rx_in7(n)  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; refclk_clk(n)         ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
++-----------------------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+
+
++-------------------------------------------------------------+
+; Routing Usage Summary                                       ;
++------------------------------+------------------------------+
+; Routing Resource Type        ; Usage                        ;
++------------------------------+------------------------------+
+; Block interconnects          ; 104,043 / 3,375,986 ( 3 % )  ;
+; C27 interconnects            ; 3,765 / 56,741 ( 7 % )       ;
+; C4 interconnects             ; 75,438 / 2,570,048 ( 3 % )   ;
+; Direct links                 ; 12,098 / 3,375,986 ( < 1 % ) ;
+; Global clocks                ; 5 / 32 ( 16 % )              ;
+; Periphery clocks             ; 0 / 910 ( 0 % )              ;
+; R3 interconnects             ; 35,887 / 1,214,760 ( 3 % )   ;
+; R32 interconnects            ; 1,333 / 99,472 ( 1 % )       ;
+; R32/C27 interconnect drivers ; 4,438 / 385,136 ( 1 % )      ;
+; R6 interconnects             ; 62,085 / 2,336,152 ( 3 % )   ;
+; Regional clock lefts         ; 0 / 16 ( 0 % )               ;
+; Regional clock out bottoms   ; 0 / 16 ( 0 % )               ;
+; Regional clock out tops      ; 0 / 16 ( 0 % )               ;
+; Regional clock rights        ; 0 / 16 ( 0 % )               ;
+; Regional clocks              ; 0 / 16 ( 0 % )               ;
+; Spine buffers                ; 16 / 704 ( 2 % )             ;
+; Spine clocks                 ; 22 / 1,056 ( 2 % )           ;
+; Spine feedthroughs           ; 0 / 1,024 ( 0 % )            ;
++------------------------------+------------------------------+
+
+
++----------------+
+; Route Messages ;
++----------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 19.2.0 Build 57 06/24/2019 SJ Pro Edition
+    Info: Processing started: Wed Aug 14 12:05:05 2019
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off top -c top
+Info: Using INI file /media/ebots/HungLam.Xav/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_18_0_project/quartus.ini
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = top
+Info: Revision = top
+Info (170193): Fitter routing operations beginning
+Info (170239): Router is attempting to preserve 0.00 percent of routes from an earlier compilation, a user specified Routing Constraints File, or internal routing requirements.
+Info (11888): Total time spent on timing analysis during Routing is 19.67 seconds.
+Info (16607): Fitter routing operations ending: elapsed time is 00:03:45
+
+
++-------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary                                             ;
++-----------------------------------+-----------------------------------+-------------------+
+; Source Clock(s)                   ; Destination Clock(s)              ; Delay Added in ns ;
++-----------------------------------+-----------------------------------+-------------------+
+; top_hw|dut|dut|wys~CORE_CLK_OUT   ; top_hw|dut|dut|wys~CORE_CLK_OUT   ; 4519.1            ;
+; top_hw|emif_0|emif_0_core_usr_clk ; top_hw|emif_0|emif_0_core_usr_clk ; 1370.2            ;
+; altera_reserved_tck               ; altera_reserved_tck               ; 1158.1            ;
+; top_hw|emif_0|emif_0_core_usr_clk ; top_hw|emif_0|emif_0_phy_clk_l_1  ; 210.9             ;
+; top_hw|emif_0|emif_0_core_usr_clk ; top_hw|emif_0|emif_0_phy_clk_l_2  ; 195.2             ;
++-----------------------------------+-----------------------------------+-------------------+
+Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
+This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                                                                                                                                                                                                                                                                                                                  ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
+; Source Register                                                                                                                                                                                ; Destination Register                                                                                                                                                                      ; Delay Added in ns ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[0]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 2.039             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[1]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 2.026             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[2]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 2.020             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_bit_counter[0]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.924             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_bit_counter[2]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.869             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_bit_counter[1]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.856             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_state.ST_HEADER                                                            ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[0]                                                             ; 1.832             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[4]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.829             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[5]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.829             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[7]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.827             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[6]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.827             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[3]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.825             ;
+; top_hw|emif_0|emif_0|arch|arch_inst|seq_if_inst|afi_cal_in_progress_sync_inst|dreg[1]                                                                                                          ; top_hw|emif_0|emif_0|arch|arch_inst|cal_counter_inst|non_hps.inst_sync_cal_in_progress|din_s1                                                                                             ; 1.805             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[9]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.734             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[8]                                                                                                   ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[3]                                                                                              ; 1.733             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_bit_counter[2]                                                        ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.711             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[7]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.698             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_bit_counter[0]                                                        ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.698             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[10]                                                                                                  ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[3]                                                                                              ; 1.694             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_bit_counter[1]                                                        ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.684             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[7]                                                                                                   ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[3]                                                                                              ; 1.678             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[9]                                                                                                   ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irsr_reg[3]                                                                                              ; 1.658             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|header_out_bit_counter[3]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[0]                                                      ; 1.641             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|header_out_bit_counter[1]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[0]                                                      ; 1.628             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|node_ena_reg[9]                                                                                               ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[18]                                   ; 1.617             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|header_out_bit_counter[2]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[0]                                                      ; 1.615             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[8]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.591             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_inserter|received_esc                                                      ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.565             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|header_out_bit_counter[0]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[0]                                                      ; 1.512             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_state.ST_WRITE_DATA                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[4]                                    ; 1.508             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[1]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.487             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[2]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.480             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|shadow_jsm|state[4]                                                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[18]                                   ; 1.452             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[5]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.426             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[6]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.412             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|node_ena_reg[7]                                                                                               ; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|master.cpa_lock_sec_issp|altsource_probe_body_inst|\wider_probe_gen:wider_probe_inst|shift_reg[0]                         ; 1.410             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[7]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.409             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[3]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.407             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|shadow_jsm|state[3]                                                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[8]                                                      ; 1.393             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_state.ST_READ_DATA                                                         ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.380             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[4]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.378             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[2]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.376             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[6]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.356             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[3]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.355             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_valid                                                                ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.352             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                                 ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.348             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irf_reg[9][0]                                                                                                 ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover_sink_valid                                                    ; 1.346             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[1]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.341             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[8]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.338             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[4]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.322             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[5]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.315             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|hub_mode_reg[1]                                                                                               ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|node_ena_reg[7]                                                                                          ; 1.311             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|shadow_jsm|state[0]                                                                                           ; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|master.cpa_lock_sec_issp|altsource_probe_body_inst|\wider_probe_gen:wider_probe_inst|hold_reg[0]                          ; 1.302             ;
+; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|core_reset_n_issp|altsource_probe_body_inst|\wider_source_gen:wider_source_inst|\instance_id_gen:rom_info_inst|WORD_SR[2]      ; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|core_reset_n_issp|altsource_probe_body_inst|\wider_source_gen:wider_source_inst|\instance_id_gen:rom_info_inst|WORD_SR[1] ; 1.294             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[10]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_valid                                                            ; 1.294             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[0]                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|padded_bit_counter[0]                                                      ; 1.292             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[0]                                                     ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.284             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_length[1]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_all_valid                                                        ; 1.282             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_length[0]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_all_valid                                                        ; 1.274             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irf_reg[9][2]                                                                                                 ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover_sink_valid                                                    ; 1.269             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|irf_reg[9][1]                                                                                                 ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover_sink_valid                                                    ; 1.269             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[12]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.265             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|hub_mode_reg[2]                                                                                               ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|clr_reg                                                                                                  ; 1.262             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[18]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.253             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_all_valid                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_inserter_source_ready                                                 ; 1.247             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|virtual_ir_scan_reg                                                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[18]                                   ; 1.240             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[13]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.236             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_length[0]                                                            ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.235             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_length[2]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_data_all_valid                                                        ; 1.225             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[11]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.222             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[0]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[0]                                                        ; 1.215             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[6]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[6]                                                        ; 1.210             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[12]                                        ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_valid                                                           ; 1.209             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[5]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[5]                                                        ; 1.206             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[2]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[2]                                                        ; 1.206             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|shadow_jsm|state[9]                                                                                           ; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|shadow_jsm|state[0]                                                                                      ; 1.205             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[13]                                        ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_valid                                                           ; 1.199             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_length[1]                                                            ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.185             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[7]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[7]                                                        ; 1.183             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[14]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.183             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_length[2]                                                            ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[14]                                   ; 1.178             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_state.ST_BYPASS                                                           ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|header_in_bit_counter[0]                                                   ; 1.176             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_control[7]                                                                   ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_control[6]                                                              ; 1.176             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[17]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.174             ;
+; top_hw|emif_0|emif_0|arch|arch_inst|cal_counter_inst|cal_counter_issp|altsource_probe_body_inst|\wider_probe_gen:wider_probe_inst|shift_reg[24]                                                ; top_hw|emif_0|emif_0|arch|arch_inst|cal_counter_inst|cal_counter_issp|altsource_probe_body_inst|\wider_probe_gen:wider_probe_inst|shift_reg[23]                                           ; 1.169             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|in_to_out_synchronizer|dreg[1]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|full1                                                           ; 1.167             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[3]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[3]                                                        ; 1.163             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[15]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.163             ;
+; auto_fab_0|alt_sld_fab_0|alt_sld_fab_0|sldfabric|\jtag_hub_gen:real_sld_jtag_hub|node_ena_reg[5]                                                                                               ; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|master.global_reset_n_issp|altsource_probe_body_inst|\wider_source_gen:wider_source_inst|hold_reg[0]                      ; 1.159             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[1]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[1]                                                        ; 1.158             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data0[4]                                                             ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[4]                                                        ; 1.156             ;
+; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|core_reset_n_issp|altsource_probe_body_inst|\wider_source_gen:wider_source_inst|\instance_id_gen:rom_info_inst|word_counter[2] ; top_hw|emif_0|emif_0|arch|arch_inst|non_hps.core_clks_rsts_inst|core_reset_n_issp|altsource_probe_body_inst|\wider_source_gen:wider_source_inst|\instance_id_gen:rom_info_inst|WORD_SR[0] ; 1.152             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[8]                                         ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_valid                                                           ; 1.150             ;
+; top_hw|emif_0|emif_0|arch|arch_inst|cal_counter_inst|cal_counter_issp|altsource_probe_body_inst|\wider_probe_gen:wider_probe_inst|shift_reg[32]                                                ; top_hw|emif_0|emif_0|arch|arch_inst|cal_counter_inst|cal_counter_issp|altsource_probe_body_inst|\wider_probe_gen:wider_probe_inst|shift_reg[31]                                           ; 1.149             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover_sink_data[1]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover|received_esc                                                  ; 1.148             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|valid_write_data_length_byte_counter[9]                                         ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_data_valid                                                           ; 1.145             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|scan_length_byte_counter[16]                                                    ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|dr_data_out[2]                                                             ; 1.145             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover_sink_data[7]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|source_crosser|sink_data_buffer[7]                                                        ; 1.140             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|idle_remover_sink_data[6]                                                       ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|source_crosser|sink_data_buffer[6]                                                        ; 1.140             ;
+; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|out_data_buffer[6]                                                                ; top_hw|emif_0|emif_0|col_if|colmaster|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|sink_crosser|output_stage|data1[6]                                                        ; 1.133             ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
+Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
+
+

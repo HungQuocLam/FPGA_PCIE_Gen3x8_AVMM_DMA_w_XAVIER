@@ -1,0 +1,7 @@
+{
+	"type" : "directory",
+	"trait" : "temp",
+	"temp_payload_path" : "",
+	"signature" : "",
+	"bak" : false
+}

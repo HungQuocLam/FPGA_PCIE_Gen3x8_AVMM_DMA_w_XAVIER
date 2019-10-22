@@ -1,0 +1,14 @@
+altera_dma -- Linux driver
+--------------------------
+
+INSTALL & RUN
+-------------
+
+To make and install the driver,
+    sudo ./install <device_family>
+
+*device_family - arria10,cyclone10,stratix10
+
+To bring up a simple menu to issue commands to the driver,
+    sudo ./run
+

@@ -1,0 +1,855 @@
+IP Upgrade report for top
+Tue Aug 13 13:30:54 2019
+Quartus Prime Version 19.2.0 Build 57 06/24/2019 SJ Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++--------------------------------------------------------------------------+
+; IP Upgrade Summary                                                       ;
++------------------------------+-------------------------------------------+
+; IP Components Upgrade Status ; Passed - Tue Aug 13 13:30:54 2019         ;
+; Quartus Prime Version        ; 19.2.0 Build 57 06/24/2019 SJ Pro Edition ;
+; Revision Name                ; top                                       ;
+; Top-level Entity Name        ; top                                       ;
+; Family                       ; Arria 10                                  ;
++------------------------------+-------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                                                 ;
++----------------------+------------------------------+---------+--------------------------------------------+--------------------------------------------+-----------------+---------+
+; Entity Name          ; Component Name               ; Version ; Original Source File                       ; Generation File Path                       ; New Source File ; Message ;
++----------------------+------------------------------+---------+--------------------------------------------+--------------------------------------------+-----------------+---------+
+; top_onchip_memory2_0 ; altera_avalon_onchip_memory2 ; 18.0    ; platform/ip/top_hw/top_onchip_memory2_0.ip ; platform/ip/top_hw/top_onchip_memory2_0.ip ;                 ;         ;
+; top_emif_0           ; altera_emif                  ; 18.0    ; platform/ip/top_hw/top_emif_0.ip           ; platform/ip/top_hw/top_emif_0.ip           ;                 ;         ;
+; top_DUT              ; altera_pcie_a10_hip          ; 18.0    ; platform/ip/top_hw/top_DUT.ip              ; platform/ip/top_hw/top_DUT.ip              ;                 ;         ;
+; top_hw               ; QsysPrimePro                 ; 18.0    ; platform/top_hw.qsys                       ; platform/top_hw.qsys                       ;                 ;         ;
+; top_hw               ; QsysPrimePro                 ; 18.0    ; platform/top_hw.qsys                       ; platform/top_hw.qsys                       ;                 ;         ;
++----------------------+------------------------------+---------+--------------------------------------------+--------------------------------------------+-----------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.BAK.ip"
+Info (11902): Backing up file "platform/ip/top_hw/top_onchip_memory2_0/synth/top_onchip_memory2_0.v" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.BAK.v"
+Info (11902): Backing up file "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.ip" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.BAK.ip"
+Info (11902): Backing up file "platform/ip/top_hw/top_emif_0/synth/top_emif_0.v" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.BAK.v"
+Info (11902): Backing up file "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.ip" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.BAK.ip"
+Info (11902): Backing up file "platform/ip/top_hw/top_DUT/synth/top_DUT.v" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.BAK.v"
+Info (11902): Backing up file "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.qsys" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.BAK.qsys"
+Info (11902): Backing up file "platform/top_hw/synth/top_hw.v" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.BAK.v"
+Info (11902): Backing up file "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.qsys" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.BAK.qsys"
+Info (11902): Backing up file "platform/top_hw/synth/top_hw.v" to "/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.BAK.v"
+Info (20325): 2019.08.13.13:29:36 Info: Batch generation will generate the listed files in this order: platform/top_hw.qsys, platform/top_hw.qsys, /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip, platform/ip/top_hw/top_emif_0.ip, platform/ip/top_hw/top_DUT.ip
+Info (20325): 2019.08.13.13:29:40 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2019.08.13.13:29:40 Info: Finished upgrading the ip cores
+Info (20325): 2019.08.13.13:29:41 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2019.08.13.13:29:41 Info: Finished upgrading the ip cores
+Info (20325): 2019.08.13.13:29:41 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2019.08.13.13:29:41 Info: Finished upgrading the ip cores
+Info (20325): 2019.08.13.13:29:47 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2019.08.13.13:29:47 Info: Finished upgrading the ip cores
+Info (20325): 2019.08.13.13:29:54 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2019.08.13.13:29:54 Info: Finished upgrading the ip cores
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Intel Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Intel Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the End User License Agreement at
+Info (20325): http://fpgasoftware.intel.com/eula.
+Info (20325): ***************************************************************
+Info (20325): 2019.08.13.13:29:54 Info: Batch generation will generate the listed files in this order: platform/top_hw.qsys, platform/top_hw.qsys, /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip, platform/ip/top_hw/top_emif_0.ip, platform/ip/top_hw/top_DUT.ip
+Info (20325): [auto_invalid_value_message_internal] : Not reporting derived antecedent "app_interface_width_hwtcl"
+Info (20325): 2019.08.13.13:30:09 Info: Parallel IP Generation is enabled.
+Info (20325): 2019.08.13.13:30:09 Info: Platform Designer will attempt to use 4 processors for parallel IP generation based on available number of processors and the total number of IP to be generated.
+Info (20325): 2019.08.13.13:30:09 Info:
+Info (20325): 2019.08.13.13:30:09 Info: Starting: Platform Designer system generation
+Info (20325): 2019.08.13.13:30:21 Info:
+Info (20325): 2019.08.13.13:30:21 Info: Saving generation log to /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/top_onchip_memory2_0_generation.rpt
+Info (20325): 2019.08.13.13:30:21 Info: Generated by version: 19.2 build 57
+Info (20325): 2019.08.13.13:30:21 Info: Starting: Create simulation model
+Info (20325): 2019.08.13.13:30:21 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0 --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Transforming system: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Naming system components in system: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Generating: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Generating: top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa"
+Info (20325): 2019.08.13.13:30:21 Info: onchip_memory2_0: Starting RTL generation for module 'top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa'
+Info (20325): 2019.08.13.13:30:21 Info: onchip_memory2_0:   Generation command is [exec /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/bin/perl -I /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/europa -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/perl_lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/common -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa --dir=/tmp/alt8121_2278594967041612157.dir/0002_onchip_memory2_0_gen/ --quartus_dir=/home/ebots/intelFPGA_pro/19.2/quartus --verilog --config=/tmp/alt8121_2278594967041612157.dir/0002_onchip_memory2_0_gen//top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8121_2278594967041612157.dir/0002_onchip_memory2_0_gen/  ]
+Info (20325): 2019.08.13.13:30:21 Info: onchip_memory2_0: Done RTL generation for module 'top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa'
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: Done "top_onchip_memory2_0" with 2 modules, 3 files
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: common/modelsim_files.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: common/vcsmx_files.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: common/vcs_files.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: common/riviera_files.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: common/ncsim_files.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: common/xcelium_files.tcl
+Info (20325): 2019.08.13.13:30:21 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/.
+Info (20325): 2019.08.13.13:30:21 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:21 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:21 Info: Finished: Create simulation model
+Info (20325): 2019.08.13.13:30:21 Info: Starting: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:21 Info: sim-script-gen --system-file=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ --use-relative-paths=true
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: mentor/msim_setup.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2019.08.13.13:30:21 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: cadence/cds.lib
+Info (20325): 2019.08.13.13:30:21 Info: cadence/hdl.var
+Info (20325): 2019.08.13.13:30:21 Info: cadence/ncsim_setup.sh
+Info (20325): 2019.08.13.13:30:21 Info: 2 .cds.lib files in cadence/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:21 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:21 Info: xcelium/cds.lib
+Info (20325): 2019.08.13.13:30:21 Info: xcelium/hdl.var
+Info (20325): 2019.08.13.13:30:21 Info: xcelium/xcelium_setup.sh
+Info (20325): 2019.08.13.13:30:21 Info: 2 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:21 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0/sim/.
+Info (20325): 2019.08.13.13:30:21 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:21 Info: Finished: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:21 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:21 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip --block-symbol-file --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0 --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:21 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:21 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:21 Info:
+Info (20325): 2019.08.13.13:30:21 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:21 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0.ip --synthesis=VERILOG --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_onchip_memory2_0 --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Transforming system: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Naming system components in system: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Generating: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: "Generating: top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa"
+Info (20325): 2019.08.13.13:30:21 Info: onchip_memory2_0: Starting RTL generation for module 'top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa'
+Info (20325): 2019.08.13.13:30:21 Info: onchip_memory2_0:   Generation command is [exec /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/bin/perl -I /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/europa -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/perl_lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/common -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa --dir=/tmp/alt8121_2278594967041612157.dir/0004_onchip_memory2_0_gen/ --quartus_dir=/home/ebots/intelFPGA_pro/19.2/quartus --verilog --config=/tmp/alt8121_2278594967041612157.dir/0004_onchip_memory2_0_gen//top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa_component_configuration.pl  --do_build_sim=0  ]
+Info (20325): 2019.08.13.13:30:21 Info: onchip_memory2_0: Done RTL generation for module 'top_onchip_memory2_0_altera_avalon_onchip_memory2_191_sdbcysa'
+Info (20325): 2019.08.13.13:30:21 Info: top_onchip_memory2_0: Done "top_onchip_memory2_0" with 2 modules, 3 files
+Info (20325): 2019.08.13.13:30:21 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:21 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:30 Info:
+Warning (20326): 2019.08.13.13:30:30 Warning: top_hw: DUT declares parameter maximumPendingReadTransactions set to 8 on interface txs that does not match 16 declared in file top_DUT.ip
+Warning (20326): 2019.08.13.13:30:30 Warning: top_hw: DUT declares assignment testbench.partner.pcie_tb.version set to 18.0 that does not match 19.1 declared in file top_DUT.ip
+Info (20325): 2019.08.13.13:30:30 Info: Saving generation log to /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/top_hw_generation.rpt
+Info (20325): 2019.08.13.13:30:30 Info: Generated by version: 19.2 build 57
+Info (20325): 2019.08.13.13:30:30 Info: Starting: Create simulation model
+Info (20325): 2019.08.13.13:30:30 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:30 Info: Loading platform/top_hw.qsys
+Info (20325): 2019.08.13.13:30:30 Info: Reading input file
+Info (20325): 2019.08.13.13:30:30 Info: Adding DUT [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module DUT
+Info (20325): 2019.08.13.13:30:30 Info: Adding clk_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module clk_0
+Info (20325): 2019.08.13.13:30:30 Info: Adding emif_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module emif_0
+Info (20325): 2019.08.13.13:30:30 Info: Adding onchip_memory2_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module onchip_memory2_0
+Info (20325): 2019.08.13.13:30:30 Info: Building connections
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing connections
+Info (20325): 2019.08.13.13:30:30 Info: Validating
+Info (20325): 2019.08.13.13:30:30 Info: Done reading input file
+Warning (20326): 2019.08.13.13:30:30 Warning: top_hw.emif_0: Warnings found in IP parameterization.
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Transforming system: top_hw"
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between DUT_dma_rd_master_to_emif_0_ctrl_amm_0_cmd_width_adapter.src and cmd_mux.sink0
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between DUT_dma_wr_master_to_emif_0_ctrl_amm_0_cmd_width_adapter.src and cmd_mux.sink1
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between DUT_rxm_bar2_to_emif_0_ctrl_amm_0_cmd_width_adapter.src and cmd_mux.sink2
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between emif_0_ctrl_amm_0_to_DUT_dma_rd_master_rsp_width_adapter.src and rsp_mux.sink0
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between emif_0_ctrl_amm_0_to_DUT_dma_wr_master_rsp_width_adapter.src and rsp_mux_001.sink0
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between emif_0_ctrl_amm_0_to_DUT_rxm_bar2_rsp_width_adapter.src and rsp_mux_002.sink0
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Naming system components in system: top_hw"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_DUT"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_clk_0"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_emif_0"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_mm_interconnect_191_scrfrry"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_mm_interconnect_191_3pabmzq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: altera_reset_controller"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_master_translator_191_g7h47bq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_master_agent_191_mpbm6tq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_slave_agent_191_ncfkfri"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_avalon_sc_fifo_191_e5eqkcq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_6xefe7y"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_m64leea"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_4hnp2yy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_tjsusja"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_svxrzci"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_u6cxpni"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2019.08.13.13:30:30 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2019.08.13.13:30:30 Info: my_alt_hiconnect_sc_fifo_dest_id_fifo: "Generating: my_alt_hiconnect_sc_fifo_dest_id_fifo"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_burst_adapter_191_7422xpi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_2v5jvsa"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_mozyuqi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_bggfk5a"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_4ow47rq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_hgsyksi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_ku3jpgy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_hzqd6da"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_gbjax7a"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_pj2odpy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_lrmpvga"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_25cmumq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_i6xyepy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_ff67b3i"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_op7abui"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_jigh62i"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_zevtati"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_6qisuny"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_avalon_dc_fifo_191_7gx45aq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: altera_avalon_st_pipeline_stage"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_ghvit4y"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_allu66q"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_r6ta55q"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_kmkxadi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_uowkhiq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_vxddwui"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_traffic_limiter_191_fakurfy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_traffic_limiter_191_2coyymi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_alt_hiconnect_sc_fifo_191_7qtmpqq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: Done "top_hw" with 49 modules, 88 files
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: common/modelsim_files.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: common/vcsmx_files.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: common/vcs_files.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: common/riviera_files.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: common/ncsim_files.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: common/xcelium_files.tcl
+Info (20325): 2019.08.13.13:30:30 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/.
+Info (20325): 2019.08.13.13:30:30 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:30 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:30 Info: Finished: Create simulation model
+Info (20325): 2019.08.13.13:30:30 Info: Starting: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:30 Info: sim-script-gen --system-file=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.qsys --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ --use-relative-paths=true
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: mentor/msim_setup.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2019.08.13.13:30:30 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: cadence/cds.lib
+Info (20325): 2019.08.13.13:30:30 Info: cadence/hdl.var
+Info (20325): 2019.08.13.13:30:30 Info: cadence/ncsim_setup.sh
+Info (20325): 2019.08.13.13:30:30 Info: 1 .cds.lib files in cadence/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:30 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/ directory:
+Info (20325): 2019.08.13.13:30:30 Info: xcelium/cds.lib
+Info (20325): 2019.08.13.13:30:30 Info: xcelium/hdl.var
+Info (20325): 2019.08.13.13:30:30 Info: xcelium/xcelium_setup.sh
+Info (20325): 2019.08.13.13:30:30 Info: 1 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:30 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw/sim/.
+Info (20325): 2019.08.13.13:30:30 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:30 Info: Finished: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:30 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:30 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.qsys --block-symbol-file --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:30 Info: Loading platform/top_hw.qsys
+Info (20325): 2019.08.13.13:30:30 Info: Reading input file
+Info (20325): 2019.08.13.13:30:30 Info: Adding DUT [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module DUT
+Info (20325): 2019.08.13.13:30:30 Info: Adding clk_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module clk_0
+Info (20325): 2019.08.13.13:30:30 Info: Adding emif_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module emif_0
+Info (20325): 2019.08.13.13:30:30 Info: Adding onchip_memory2_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module onchip_memory2_0
+Info (20325): 2019.08.13.13:30:30 Info: Building connections
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing connections
+Info (20325): 2019.08.13.13:30:30 Info: Validating
+Info (20325): 2019.08.13.13:30:30 Info: Done reading input file
+Warning (20326): 2019.08.13.13:30:30 Warning: top_hw.emif_0: Warnings found in IP parameterization.
+Info (20325): 2019.08.13.13:30:30 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:30 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:30 Info:
+Info (20325): 2019.08.13.13:30:30 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:30 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw.qsys --synthesis=VERILOG --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/top_hw --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:30 Info: Loading platform/top_hw.qsys
+Info (20325): 2019.08.13.13:30:30 Info: Reading input file
+Info (20325): 2019.08.13.13:30:30 Info: Adding DUT [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module DUT
+Info (20325): 2019.08.13.13:30:30 Info: Adding clk_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module clk_0
+Info (20325): 2019.08.13.13:30:30 Info: Adding emif_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module emif_0
+Info (20325): 2019.08.13.13:30:30 Info: Adding onchip_memory2_0 [altera_generic_component 1.0]
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing module onchip_memory2_0
+Info (20325): 2019.08.13.13:30:30 Info: Building connections
+Info (20325): 2019.08.13.13:30:30 Info: Parameterizing connections
+Info (20325): 2019.08.13.13:30:30 Info: Validating
+Info (20325): 2019.08.13.13:30:30 Info: Done reading input file
+Warning (20326): 2019.08.13.13:30:30 Warning: top_hw.emif_0: Warnings found in IP parameterization.
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Transforming system: top_hw"
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between DUT_dma_rd_master_to_emif_0_ctrl_amm_0_cmd_width_adapter.src and cmd_mux.sink0
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between DUT_dma_wr_master_to_emif_0_ctrl_amm_0_cmd_width_adapter.src and cmd_mux.sink1
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between DUT_rxm_bar2_to_emif_0_ctrl_amm_0_cmd_width_adapter.src and cmd_mux.sink2
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between emif_0_ctrl_amm_0_to_DUT_dma_rd_master_rsp_width_adapter.src and rsp_mux.sink0
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between emif_0_ctrl_amm_0_to_DUT_dma_wr_master_rsp_width_adapter.src and rsp_mux_001.sink0
+Info (20325): 2019.08.13.13:30:30 Info: Inserting clock-crossing logic between emif_0_ctrl_amm_0_to_DUT_rxm_bar2_rsp_width_adapter.src and rsp_mux_002.sink0
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Naming system components in system: top_hw"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_DUT"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_clk_0"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_emif_0"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_onchip_memory2_0"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_mm_interconnect_191_scrfrry"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_mm_interconnect_191_3pabmzq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: altera_reset_controller"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_master_translator_191_g7h47bq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_master_agent_191_mpbm6tq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_slave_agent_191_ncfkfri"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_avalon_sc_fifo_191_e5eqkcq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_6xefe7y"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_m64leea"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_4hnp2yy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_tjsusja"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_svxrzci"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_u6cxpni"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_traffic_limiter_191_kcba44q"
+Info (20325): 2019.08.13.13:30:30 Info: my_altera_avalon_sc_fifo_dest_id_fifo: "Generating: my_altera_avalon_sc_fifo_dest_id_fifo"
+Info (20325): 2019.08.13.13:30:30 Info: my_alt_hiconnect_sc_fifo_dest_id_fifo: "Generating: my_alt_hiconnect_sc_fifo_dest_id_fifo"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_burst_adapter_191_7422xpi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_2v5jvsa"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_mozyuqi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_bggfk5a"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_4ow47rq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_hgsyksi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_ku3jpgy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_hzqd6da"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_gbjax7a"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_pj2odpy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_lrmpvga"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_25cmumq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_i6xyepy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_ff67b3i"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_op7abui"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_jigh62i"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_zevtati"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_width_adapter_191_6qisuny"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_avalon_dc_fifo_191_7gx45aq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: altera_avalon_st_pipeline_stage"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_ghvit4y"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_router_191_allu66q"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_r6ta55q"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_kmkxadi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_demultiplexer_191_uowkhiq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_multiplexer_191_vxddwui"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_traffic_limiter_191_fakurfy"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_altera_merlin_traffic_limiter_191_2coyymi"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: "Generating: top_hw_alt_hiconnect_sc_fifo_191_7qtmpqq"
+Info (20325): 2019.08.13.13:30:30 Info: top_hw: Done "top_hw" with 49 modules, 89 files
+Info (20325): 2019.08.13.13:30:30 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:30 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:44 Info:
+Info (20325): 2019.08.13.13:30:44 Info: [auto_invalid_value_message_internal] : Not reporting derived antecedent "app_interface_width_hwtcl"
+Info (20325): 2019.08.13.13:30:44 Info: Saving generation log to /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/top_DUT_generation.rpt
+Info (20325): 2019.08.13.13:30:44 Info: Generated by version: 19.2 build 57
+Info (20325): 2019.08.13.13:30:44 Info: Starting: Create simulation model
+Info (20325): 2019.08.13.13:30:44 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:44 Info: [auto_invalid_value_message_internal] : Not reporting derived antecedent "app_interface_width_hwtcl"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: device_family is Arria 10
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: part_trait_device is 10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: Gen3 (8.0 Gbps) x8 256-bit
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: The value of parameter hssi_rx_pld_pcs_interface_hd_chnl_hrdrstctl_en cannot be automatically resolved. Valid values are: enable disable.
+Info (20325): 2019.08.13.13:30:44 Info: DUT.fpll_g3: The output frequencies are not exact when the PLL is in fractional mode. You must be cautious with applications that require frequencies to be exact to within less than 0.5 Hz.
+Info (20325): 2019.08.13.13:30:44 Info: DUT.fpll_g3: For the selected device(Unknown), PLL speed grade is 2.
+Info (20325): 2019.08.13.13:30:44 Info: DUT.lcpll_g3xn: For the selected device(Unknown), PLL speed grade is 2.
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Transforming system: top_DUT"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Naming system components in system: top_DUT"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT_altera_pcie_a10_hip_191_2c3iari"
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: "Generating: phy_g3x8"
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: "Generating: fpll_g3"
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: "Generating: lcpll_g3xn"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: phy_g3x8"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: fpll_g3"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: lcpll_g3xn"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT_altera_xcvr_native_a10_191_o3savxa"
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./mentor/alt_xcvr_resync.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_resync.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./mentor/alt_xcvr_arbiter.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_arbiter.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_pcs.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_pcs.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_pma.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_pma.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_xcvr_native.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_native.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./mentor/twentynm_pcs.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_pcs.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./mentor/twentynm_pma.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_pma.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./mentor/twentynm_xcvr_avmm.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_xcvr_avmm.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./mentor/twentynm_xcvr_native.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_xcvr_native.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_a10_functions_h.sv SYSTEM_VERILOG PATH ..//altera_xcvr_native_a10_functions_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ..//a10_avmm_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_pipe_retry.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_pipe_retry.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_avmm_csr.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_avmm_csr.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_prbs_accum.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_prbs_accum.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_odi_accel.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_odi_accel.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_rcfg_arb.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_rcfg_arb.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_pcie_dfe_params_h.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/altera_xcvr_native_pcie_dfe_params_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_commands_h.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_commands_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_functions_h.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_functions_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_program.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_program.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_cpu.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_cpu.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_master.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_master.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_pcie_dfe_ip.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/altera_xcvr_native_pcie_dfe_ip.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Building configuration data for reconfiguration profile 0
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Validating reconfiguration profile 0
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: When "Transceiver configuration rules" is set to "Gen 3 PIPE", the "Data rate" for the Standard PCS should be set for the power-on configuration of Gen1 PIPE. Under the hood, the "Data rate" for the Gen 3 PCS is set as 8000Mbps which is not reflected in the GUI.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Note - When dynamic reconfiguration is enabled, users are recommended to enable multiple reconfiguration profiles for Quartus to perform robust timing closure
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Current IP configuration matches reconfiguration profile 0
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: For the selected device(Unknown), transceiver speed grade is 2 and core speed grade is 1.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: The value of parameter hssi_rx_pld_pcs_interface_hd_chnl_hrdrstctl_en cannot be automatically resolved. Valid values are: enable disable.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Building configuration data for reconfiguration profile 1
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Validating reconfiguration profile 1
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Note - When dynamic reconfiguration is enabled, users are recommended to enable multiple reconfiguration profiles for Quartus to perform robust timing closure
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Current IP configuration matches reconfiguration profile 1
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: For the selected device(Unknown), transceiver speed grade is 2 and core speed grade is 1.
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: altera_xcvr_fpll_a10"
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./mentor/twentynm_xcvr_avmm.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_xcvr_avmm.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./mentor/alt_xcvr_resync.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_resync.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./altera_xcvr_fpll_a10.sv SYSTEM_VERILOG PATH ../source/altera_xcvr_fpll_a10.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./mentor/altera_xcvr_fpll_a10.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/source/altera_xcvr_fpll_a10.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/a10_avmm_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_native_avmm_nf.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/alt_xcvr_native_avmm_nf.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_pll_embedded_debug.sv SYSTEM_VERILOG PATH ../../altera_xcvr_atx_pll_vi/source/alt_xcvr_pll_embedded_debug.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_pll_avmm_csr.sv SYSTEM_VERILOG PATH ../../altera_xcvr_atx_pll_vi/source/alt_xcvr_pll_avmm_csr.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./mentor/alt_xcvr_pll_embedded_debug.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_atx_pll_vi/mentor/source/alt_xcvr_pll_embedded_debug.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./mentor/alt_xcvr_pll_avmm_csr.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_atx_pll_vi/mentor/source/alt_xcvr_pll_avmm_csr.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT_altera_xcvr_atx_pll_a10_191_5xrbkaa"
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/twentynm_xcvr_avmm.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_xcvr_avmm.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/alt_xcvr_resync.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_resync.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/alt_xcvr_arbiter.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_arbiter.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/a10_avmm_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./altera_xcvr_native_a10_functions_h.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/altera_xcvr_native_a10_functions_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_atx_pll_rcfg_arb.sv SYSTEM_VERILOG PATH ../source/alt_xcvr_atx_pll_rcfg_arb.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./a10_xcvr_atx_pll.sv SYSTEM_VERILOG PATH ../source/a10_xcvr_atx_pll.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_pll_embedded_debug.sv SYSTEM_VERILOG PATH ../source/alt_xcvr_pll_embedded_debug.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_pll_avmm_csr.sv SYSTEM_VERILOG PATH ../source/alt_xcvr_pll_avmm_csr.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/alt_xcvr_atx_pll_rcfg_arb.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/source/alt_xcvr_atx_pll_rcfg_arb.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/a10_xcvr_atx_pll.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/source/a10_xcvr_atx_pll.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/alt_xcvr_pll_embedded_debug.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/source/alt_xcvr_pll_embedded_debug.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./mentor/alt_xcvr_pll_avmm_csr.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/source/alt_xcvr_pll_avmm_csr.sv MENTOR_SPECIFIC
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: Done "top_DUT" with 8 modules, 131 files
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: common/modelsim_files.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: common/vcsmx_files.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: common/vcs_files.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: common/riviera_files.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: common/ncsim_files.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: common/xcelium_files.tcl
+Info (20325): 2019.08.13.13:30:44 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/.
+Info (20325): 2019.08.13.13:30:44 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:44 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:44 Info: Finished: Create simulation model
+Info (20325): 2019.08.13.13:30:44 Info: Starting: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:44 Info: sim-script-gen --system-file=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.ip --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ --use-relative-paths=true
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: mentor/msim_setup.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2019.08.13.13:30:44 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: cadence/cds.lib
+Info (20325): 2019.08.13.13:30:44 Info: cadence/hdl.var
+Info (20325): 2019.08.13.13:30:44 Info: cadence/ncsim_setup.sh
+Info (20325): 2019.08.13.13:30:44 Info: 6 .cds.lib files in cadence/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:44 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/ directory:
+Info (20325): 2019.08.13.13:30:44 Info: xcelium/cds.lib
+Info (20325): 2019.08.13.13:30:44 Info: xcelium/hdl.var
+Info (20325): 2019.08.13.13:30:44 Info: xcelium/xcelium_setup.sh
+Info (20325): 2019.08.13.13:30:44 Info: 6 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:44 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT/sim/.
+Info (20325): 2019.08.13.13:30:44 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:44 Info: Finished: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:44 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:44 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.ip --block-symbol-file --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:44 Info: [auto_invalid_value_message_internal] : Not reporting derived antecedent "app_interface_width_hwtcl"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: device_family is Arria 10
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: part_trait_device is 10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: Gen3 (8.0 Gbps) x8 256-bit
+Info (20325): 2019.08.13.13:30:44 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:44 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:44 Info:
+Info (20325): 2019.08.13.13:30:44 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:44 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT.ip --synthesis=VERILOG --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_DUT --family="Arria 10" --part=10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:44 Info: [auto_invalid_value_message_internal] : Not reporting derived antecedent "app_interface_width_hwtcl"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: device_family is Arria 10
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: part_trait_device is 10AX115S2F45I1SG
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT.DUT: Gen3 (8.0 Gbps) x8 256-bit
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: DUT.phy_g3x8: The value of parameter hssi_rx_pld_pcs_interface_hd_chnl_hrdrstctl_en cannot be automatically resolved. Valid values are: enable disable.
+Info (20325): 2019.08.13.13:30:44 Info: DUT.fpll_g3: The output frequencies are not exact when the PLL is in fractional mode. You must be cautious with applications that require frequencies to be exact to within less than 0.5 Hz.
+Info (20325): 2019.08.13.13:30:44 Info: DUT.fpll_g3: For the selected device(Unknown), PLL speed grade is 2.
+Info (20325): 2019.08.13.13:30:44 Info: DUT.lcpll_g3xn: For the selected device(Unknown), PLL speed grade is 2.
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Transforming system: top_DUT"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Naming system components in system: top_DUT"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT_altera_pcie_a10_hip_191_2c3iari"
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: "Generating: phy_g3x8"
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: "Generating: fpll_g3"
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: "Generating: lcpll_g3xn"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: phy_g3x8"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: fpll_g3"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: lcpll_g3xn"
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT_altera_xcvr_native_a10_191_o3savxa"
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_pcs.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_pcs.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_pma.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_pma.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./twentynm_xcvr_native.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_native.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_a10_functions_h.sv SYSTEM_VERILOG PATH ..//altera_xcvr_native_a10_functions_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ..//a10_avmm_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_pipe_retry.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_pipe_retry.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_avmm_csr.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_avmm_csr.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_prbs_accum.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_prbs_accum.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_odi_accel.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_odi_accel.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./alt_xcvr_native_rcfg_arb.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_rcfg_arb.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_a10_false_paths.sdc SDC PATH ..//altera_xcvr_native_a10_false_paths.sdc
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_pcie_dfe_params_h.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/altera_xcvr_native_pcie_dfe_params_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_commands_h.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_commands_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_functions_h.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_functions_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_program.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_program.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_cpu.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_cpu.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./pcie_mgmt_master.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/pcie_mgmt_master.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: add_fileset_file ./altera_xcvr_native_pcie_dfe_ip.sv SYSTEM_VERILOG PATH ../pcie_dfe_ip/altera_xcvr_native_pcie_dfe_ip.sv
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Building configuration data for reconfiguration profile 0
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Validating reconfiguration profile 0
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: When "Transceiver configuration rules" is set to "Gen 3 PIPE", the "Data rate" for the Standard PCS should be set for the power-on configuration of Gen1 PIPE. Under the hood, the "Data rate" for the Gen 3 PCS is set as 8000Mbps which is not reflected in the GUI.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Note - When dynamic reconfiguration is enabled, users are recommended to enable multiple reconfiguration profiles for Quartus to perform robust timing closure
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Current IP configuration matches reconfiguration profile 0
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: For the selected device(Unknown), transceiver speed grade is 2 and core speed grade is 1.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: The value of parameter hssi_rx_pld_pcs_interface_hd_chnl_hrdrstctl_en cannot be automatically resolved. Valid values are: enable disable.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Building configuration data for reconfiguration profile 1
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Validating reconfiguration profile 1
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Note - When dynamic reconfiguration is enabled, users are recommended to enable multiple reconfiguration profiles for Quartus to perform robust timing closure
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 0 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable UPI Pipeline Options (enable_upi_pipeline_options). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 setting (pcs_tx_delay1_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay1 mode (pcs_tx_delay1_data_sel). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Delay2 setting (pcs_tx_delay2_ctrl). Intel recommends that you refresh the profile.
+Warning (20326): 2019.08.13.13:30:44 Warning: phy_g3x8: Reconfiguration profile 1 is missing a value for parameter Enable rx_enh_clr_errblk_count port (10GBASE-R) (enable_port_rx_enh_clr_errblk_count_c10). Intel recommends that you refresh the profile.
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: Current IP configuration matches reconfiguration profile 1
+Info (20325): 2019.08.13.13:30:44 Info: phy_g3x8: For the selected device(Unknown), transceiver speed grade is 2 and core speed grade is 1.
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: altera_xcvr_fpll_a10"
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./altera_xcvr_fpll_a10.sv SYSTEM_VERILOG PATH ../source/altera_xcvr_fpll_a10.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/a10_avmm_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_native_avmm_nf.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/alt_xcvr_native_avmm_nf.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_pll_embedded_debug.sv SYSTEM_VERILOG PATH ../../altera_xcvr_atx_pll_vi/source/alt_xcvr_pll_embedded_debug.sv
+Info (20325): 2019.08.13.13:30:44 Info: fpll_g3: add_fileset_file ./alt_xcvr_pll_avmm_csr.sv SYSTEM_VERILOG PATH ../../altera_xcvr_atx_pll_vi/source/alt_xcvr_pll_avmm_csr.sv
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: "Generating: top_DUT_altera_xcvr_atx_pll_a10_191_5xrbkaa"
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/a10_avmm_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./altera_xcvr_native_a10_functions_h.sv SYSTEM_VERILOG PATH ../../../altera_xcvr_native_phy/altera_xcvr_native_vi/altera_xcvr_native_a10_functions_h.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_atx_pll_rcfg_arb.sv SYSTEM_VERILOG PATH ../source/alt_xcvr_atx_pll_rcfg_arb.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./a10_xcvr_atx_pll.sv SYSTEM_VERILOG PATH ../source/a10_xcvr_atx_pll.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_pll_embedded_debug.sv SYSTEM_VERILOG PATH ../source/alt_xcvr_pll_embedded_debug.sv
+Info (20325): 2019.08.13.13:30:44 Info: lcpll_g3xn: add_fileset_file ./alt_xcvr_pll_avmm_csr.sv SYSTEM_VERILOG PATH ../source/alt_xcvr_pll_avmm_csr.sv
+Info (20325): 2019.08.13.13:30:44 Info: top_DUT: Done "top_DUT" with 8 modules, 104 files
+Info (20325): 2019.08.13.13:30:44 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:44 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:47 Info:
+Info (20325): 2019.08.13.13:30:47 Info: Saving generation log to /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/top_emif_0_generation.rpt
+Info (20325): 2019.08.13.13:30:47 Info: Generated by version: 19.2 build 57
+Info (20325): 2019.08.13.13:30:47 Info: Starting: Create simulation model
+Info (20325): 2019.08.13.13:30:47 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.ip --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0 --family="Arria 10" --part=10AX115S2F45I1SG
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Address/command bus will not be calibrated because the ALERT#/PAR pins are not enabled.
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Enabling "Skip address/command leveling calibration" is only recommended for diagnostic purposes. Timing analysis does not capture the effect of non-default calibration flow.
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Enabling "Skip address/command deskew calibration" is only recommended for diagnostic purposes. Timing analysis does not capture the effect of non-default calibration flow.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Periodic OCT re-calibration is disabled because the interface uses calibrated IO standards for either Address, Command or Clock signals.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: The interface will have reduced Read Capture timing margin due to Periodic OCT re-calibration being disabled.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: PHY and controller running at 2x the frequency of user logic for improved efficiency.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Placement of address/command pins must follow "DDR4 Scheme 4: Component/UDIMM/RDIMM".
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Interface estimated to require 3 I/O Bank(s) and 3 I/O PLL(s). This is only an estimation. Final usage depends on user pin location assignments and/or fitter behavior.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Valid memory frequencies for the current PLL reference clock and user clock rate, in MHz: 1066.66
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: For additional documentation about the interface, consult the *_readme.txt file after generation.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Transforming system: top_emif_0"
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master col_if.to_ioaux and slave arch.cal_debug because the master has burstcount signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master col_if.to_ioaux and slave arch.cal_debug because the master has address signal 30 bit wide, but the slave is 24 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master col_if.to_ioaux and slave arch.cal_debug because the master has debugaccess signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master colmaster.master and slave avl_bridge_out.s0 because the master has address signal 32 bit wide, but the slave is 30 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has waitrequest signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has readdatavalid signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has burstcount signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has address signal 16 bit wide, but the slave is 12 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has read signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Naming system components in system: top_emif_0"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_emif_1910_d3ribzq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_emif_arch_nf_191_bclhany"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_ip_col_if_191_ksrpnai"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_emif_cal_slave_nf_191_rmzieji"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_mm_interconnect_191_monheay"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_avalon_mm_bridge_191_x6qdesi"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_alt_mem_if_jtag_master_191_rksoe3i"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_mm_interconnect_191_3yb4cia"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q"
+Info (20325): 2019.08.13.13:30:47 Info: ioaux_soft_ram: Starting RTL generation for module 'top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q'
+Info (20325): 2019.08.13.13:30:47 Info: ioaux_soft_ram:   Generation command is [exec /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/bin/perl -I /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/europa -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/perl_lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/common -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q --dir=/tmp/alt8121_1653903581764399360.dir/0004_ioaux_soft_ram_gen/ --quartus_dir=/home/ebots/intelFPGA_pro/19.2/quartus --verilog --config=/tmp/alt8121_1653903581764399360.dir/0004_ioaux_soft_ram_gen//top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8121_1653903581764399360.dir/0004_ioaux_soft_ram_gen/  ]
+Info (20325): 2019.08.13.13:30:47 Info: ioaux_soft_ram: Done RTL generation for module 'top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q'
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_mm_interconnect_191_dexdb4a"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_reset_controller"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_merlin_master_translator_191_g7h47bq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_st_jtag_interface"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_timing_adapter_191_rrgemwi"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_avalon_sc_fifo_191_e5eqkcq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_st_bytes_to_packets"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_st_packets_to_bytes"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_packets_to_master"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_channel_adapter_191_uc27kqq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_channel_adapter_191_cco4x3a"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: Done "top_emif_0" with 22 modules, 80 files
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: common/modelsim_files.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: common/vcsmx_files.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: common/vcs_files.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: common/riviera_files.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: common/ncsim_files.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: common/xcelium_files.tcl
+Info (20325): 2019.08.13.13:30:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/.
+Info (20325): 2019.08.13.13:30:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:47 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:47 Info: Finished: Create simulation model
+Info (20325): 2019.08.13.13:30:47 Info: Starting: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:47 Info: sim-script-gen --system-file=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.ip --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ --use-relative-paths=true
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for MODELSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: mentor/msim_setup.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for VCSMX simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2019.08.13.13:30:47 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for VCS simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for RIVIERA simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for NCSIM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: cadence/cds.lib
+Info (20325): 2019.08.13.13:30:47 Info: cadence/hdl.var
+Info (20325): 2019.08.13.13:30:47 Info: cadence/ncsim_setup.sh
+Info (20325): 2019.08.13.13:30:47 Info: 19 .cds.lib files in cadence/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:47 Info: Generating the following file(s) for XCELIUM simulator in /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/ directory:
+Info (20325): 2019.08.13.13:30:47 Info: xcelium/cds.lib
+Info (20325): 2019.08.13.13:30:47 Info: xcelium/hdl.var
+Info (20325): 2019.08.13.13:30:47 Info: xcelium/xcelium_setup.sh
+Info (20325): 2019.08.13.13:30:47 Info: 19 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2019.08.13.13:30:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0/sim/.
+Info (20325): 2019.08.13.13:30:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2019.08.13.13:30:47 Info: Finished: Create Modelsim Project.
+Info (20325): 2019.08.13.13:30:47 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:47 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.ip --block-symbol-file --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0 --family="Arria 10" --part=10AX115S2F45I1SG
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Address/command bus will not be calibrated because the ALERT#/PAR pins are not enabled.
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Enabling "Skip address/command leveling calibration" is only recommended for diagnostic purposes. Timing analysis does not capture the effect of non-default calibration flow.
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Enabling "Skip address/command deskew calibration" is only recommended for diagnostic purposes. Timing analysis does not capture the effect of non-default calibration flow.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Periodic OCT re-calibration is disabled because the interface uses calibrated IO standards for either Address, Command or Clock signals.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: The interface will have reduced Read Capture timing margin due to Periodic OCT re-calibration being disabled.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: PHY and controller running at 2x the frequency of user logic for improved efficiency.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Placement of address/command pins must follow "DDR4 Scheme 4: Component/UDIMM/RDIMM".
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Interface estimated to require 3 I/O Bank(s) and 3 I/O PLL(s). This is only an estimation. Final usage depends on user pin location assignments and/or fitter behavior.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Valid memory frequencies for the current PLL reference clock and user clock rate, in MHz: 1066.66
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: For additional documentation about the interface, consult the *_readme.txt file after generation.
+Info (20325): 2019.08.13.13:30:47 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:47 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2019.08.13.13:30:47 Info:
+Info (20325): 2019.08.13.13:30:47 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:47 Info: qsys-generate /home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0.ip --synthesis=VERILOG --output-directory=/home/ebots/FPGA_workspace/AN829_a10_PCIe_Gen3x8_DMA/Origin_AN829/Arria10_PCIeGen3x8_DMA_18_0_project/platform/ip/top_hw/top_emif_0 --family="Arria 10" --part=10AX115S2F45I1SG
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Address/command bus will not be calibrated because the ALERT#/PAR pins are not enabled.
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Enabling "Skip address/command leveling calibration" is only recommended for diagnostic purposes. Timing analysis does not capture the effect of non-default calibration flow.
+Warning (20326): 2019.08.13.13:30:47 Warning: top_emif_0.emif_0: Enabling "Skip address/command deskew calibration" is only recommended for diagnostic purposes. Timing analysis does not capture the effect of non-default calibration flow.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Periodic OCT re-calibration is disabled because the interface uses calibrated IO standards for either Address, Command or Clock signals.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: The interface will have reduced Read Capture timing margin due to Periodic OCT re-calibration being disabled.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: PHY and controller running at 2x the frequency of user logic for improved efficiency.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Placement of address/command pins must follow "DDR4 Scheme 4: Component/UDIMM/RDIMM".
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Interface estimated to require 3 I/O Bank(s) and 3 I/O PLL(s). This is only an estimation. Final usage depends on user pin location assignments and/or fitter behavior.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: Valid memory frequencies for the current PLL reference clock and user clock rate, in MHz: 1066.66
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0.emif_0.arch: For additional documentation about the interface, consult the *_readme.txt file after generation.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Transforming system: top_emif_0"
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master col_if.to_ioaux and slave arch.cal_debug because the master has burstcount signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master col_if.to_ioaux and slave arch.cal_debug because the master has address signal 30 bit wide, but the slave is 24 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master col_if.to_ioaux and slave arch.cal_debug because the master has debugaccess signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master colmaster.master and slave avl_bridge_out.s0 because the master has address signal 32 bit wide, but the slave is 30 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has waitrequest signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has readdatavalid signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has burstcount signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has address signal 16 bit wide, but the slave is 12 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: Interconnect is inserted between master ioaux_master_bridge.m0 and slave ioaux_soft_ram.s1 because the master has read signal 1 bit wide, but the slave is 0 bit wide.
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Naming system components in system: top_emif_0"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Processing generation queue"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_emif_1910_d3ribzq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_emif_arch_nf_191_bclhany"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_ip_col_if_191_ksrpnai"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_emif_cal_slave_nf_191_rmzieji"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_mm_interconnect_191_monheay"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_avalon_mm_bridge_191_x6qdesi"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_alt_mem_if_jtag_master_191_rksoe3i"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_mm_interconnect_191_3yb4cia"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q"
+Info (20325): 2019.08.13.13:30:47 Info: ioaux_soft_ram: Starting RTL generation for module 'top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q'
+Info (20325): 2019.08.13.13:30:47 Info: ioaux_soft_ram:   Generation command is [exec /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/bin/perl -I /home/ebots/intelFPGA_pro/19.2/quartus/linux64/perl/lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/europa -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin/perl_lib -I /home/ebots/intelFPGA_pro/19.2/quartus/sopc_builder/bin -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/common -I /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/ebots/intelFPGA_pro/19.2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q --dir=/tmp/alt8121_1653903581764399360.dir/0019_ioaux_soft_ram_gen/ --quartus_dir=/home/ebots/intelFPGA_pro/19.2/quartus --verilog --config=/tmp/alt8121_1653903581764399360.dir/0019_ioaux_soft_ram_gen//top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q_component_configuration.pl  --do_build_sim=0  ]
+Info (20325): 2019.08.13.13:30:47 Info: ioaux_soft_ram: Done RTL generation for module 'top_emif_0_altera_avalon_onchip_memory2_191_qdw5d3q'
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_mm_interconnect_191_dexdb4a"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_reset_controller"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_merlin_master_translator_191_g7h47bq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_st_jtag_interface"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_timing_adapter_191_rrgemwi"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_altera_avalon_sc_fifo_191_e5eqkcq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_st_bytes_to_packets"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_st_packets_to_bytes"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: altera_avalon_packets_to_master"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_channel_adapter_191_uc27kqq"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: "Generating: top_emif_0_channel_adapter_191_cco4x3a"
+Info (20325): 2019.08.13.13:30:47 Info: top_emif_0: Done "top_emif_0" with 22 modules, 85 files
+Info (20325): 2019.08.13.13:30:47 Info: qsys-generate succeeded.
+Info (20325): 2019.08.13.13:30:47 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2019.08.13.13:30:48 Info: Finished: Platform Designer system generation
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Intel Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Intel Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the End User License Agreement at
+Info (20325): http://fpgasoftware.intel.com/eula.
+Info (20325): ***************************************************************
+Info (11131): Completed upgrading IP component altera_avalon_onchip_memory2 with file "platform/ip/top_hw/top_onchip_memory2_0.ip"
+Info (11131): Completed upgrading IP component altera_emif with file "platform/ip/top_hw/top_emif_0.ip"
+Info (11131): Completed upgrading IP component altera_pcie_a10_hip with file "platform/ip/top_hw/top_DUT.ip"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "platform/top_hw.qsys"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "platform/top_hw.qsys"
+Info (23030): Evaluation of Tcl script /home/ebots/intelFPGA_pro/19.2/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 78 warnings
+    Info: Peak virtual memory: 1220 megabytes
+    Info: Processing ended: Tue Aug 13 13:31:02 2019
+    Info: Elapsed time: 00:01:33
+
+

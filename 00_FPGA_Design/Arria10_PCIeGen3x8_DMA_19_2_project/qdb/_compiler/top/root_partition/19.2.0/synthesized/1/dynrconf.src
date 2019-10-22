@@ -1,0 +1,884 @@
+22 serialization::archive 13 0 0 0 0 13 0 0 0 243 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_10g_rx_pcs_rcfg_settings_o3savxa.json 0 0 160 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+      }
+    }
+  ]
+}
+
+ 0 0 243 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_10g_tx_pcs_rcfg_settings_o3savxa.json 160 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+      }
+    }
+  ]
+}
+
+ 242 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_8g_rx_pcs_rcfg_settings_o3savxa.json 7492 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "auto_error_replacement" : "en_err_replace",
+        "auto_speed_nego" : "en_asn_g2_freq_scal",
+        "bit_reversal" : "dis_bit_reversal",
+        "bonding_dft_en" : "dft_dis",
+        "bonding_dft_val" : "dft_0",
+        "bypass_pipeline_reg" : "dis_bypass_pipeline",
+        "byte_deserializer" : "en_bds_by_4",
+        "cdr_ctrl_rxvalid_mask" : "en_rxvalid_mask",
+        "clkcmp_pattern_n" : "20'd192892",
+        "clkcmp_pattern_p" : "20'd855683",
+        "clock_gate_bds_dec_asn" : "dis_bds_dec_asn_clk_gating",
+        "clock_gate_cdr_eidle" : "dis_cdr_eidle_clk_gating",
+        "clock_gate_dw_pc_wrclk" : "en_dw_pc_wrclk_gating",
+        "clock_gate_dw_rm_rd" : "en_dw_rm_rdclk_gating",
+        "clock_gate_dw_rm_wr" : "en_dw_rm_wrclk_gating",
+        "clock_gate_dw_wa" : "en_dw_wa_clk_gating",
+        "clock_gate_pc_rdclk" : "dis_pc_rdclk_gating",
+        "clock_gate_sw_pc_wrclk" : "dis_sw_pc_wrclk_gating",
+        "clock_gate_sw_rm_rd" : "dis_sw_rm_rdclk_gating",
+        "clock_gate_sw_rm_wr" : "dis_sw_rm_wrclk_gating",
+        "clock_gate_sw_wa" : "dis_sw_wa_clk_gating",
+        "clock_observation_in_pld_core" : "internal_sw_wa_clk",
+        "eidle_entry_eios" : "dis_eidle_eios",
+        "eidle_entry_iei" : "dis_eidle_iei",
+        "eidle_entry_sd" : "en_eidle_sd",
+        "eightb_tenb_decoder" : "en_8b10b_ibm",
+        "err_flags_sel" : "err_flags_wa",
+        "fixed_pat_det" : "dis_fixed_patdet",
+        "fixed_pat_num" : "4'd0",
+        "force_signal_detect" : "en_force_signal_detect",
+        "gen3_clk_en" : "enable_clk",
+        "gen3_rx_clk_sel" : "rcvd_clk",
+        "gen3_tx_clk_sel" : "tx_pma_clk",
+        "hip_mode" : "en_hip",
+        "ibm_invalid_code" : "dis_ibm_invalid_code",
+        "invalid_code_flag_only" : "dis_invalid_code_only",
+        "pad_or_edb_error_replace" : "replace_edb_dynamic",
+        "pcs_bypass" : "dis_pcs_bypass",
+        "phase_comp_rdptr" : "disable_rdptr",
+        "phase_compensation_fifo" : "register_fifo",
+        "pipe_if_enable" : "en_pipe3_rx",
+        "pma_dw" : "ten_bit",
+        "polinv_8b10b_dec" : "en_polinv_8b10b_dec",
+        "prot_mode" : "pipe_g3",
+        "rate_match" : "pipe_rm",
+        "rate_match_del_thres" : "pipe_rm_del_thres",
+        "rate_match_empty_thres" : "pipe_rm_empty_thres",
+        "rate_match_full_thres" : "pipe_rm_full_thres",
+        "rate_match_ins_thres" : "pipe_rm_ins_thres",
+        "rate_match_start_thres" : "pipe_rm_start_thres",
+        "rx_clk_free_running" : "en_rx_clk_free_run",
+        "rx_clk2" : "tx_pma_clock_clk2",
+        "rx_pcs_urst" : "en_rx_pcs_urst",
+        "rx_rcvd_clk" : "rcvd_clk_rcvd_clk",
+        "rx_rd_clk" : "rx_clk",
+        "rx_refclk" : "dis_refclk_sel",
+        "rx_wr_clk" : "txfifo_rd_clk",
+        "sup_mode" : "user_mode",
+        "symbol_swap" : "dis_symbol_swap",
+        "sync_sm_idle_eios" : "en_syncsm_idle",
+        "test_bus_sel" : "tx_testbus",
+        "tx_rx_parallel_loopback" : "dis_plpbk",
+        "wa_boundary_lock_ctrl" : "sync_sm",
+        "wa_clk_slip_spacing" : "10'd16",
+        "wa_det_latency_sync_status_beh" : "dont_care_assert_sync",
+        "wa_disp_err_flag" : "en_disp_err_flag",
+        "wa_kchar" : "dis_kchar",
+        "wa_pd" : "wa_pd_10",
+        "wa_pd_data" : "380",
+        "wa_pd_polarity" : "dont_care_both_pol",
+        "wa_pld_controlled" : "dis_pld_ctrl",
+        "wa_renumber_data" : "6'd16",
+        "wa_rgnumber_data" : "8'd15",
+        "wa_rknumber_data" : "8'd3",
+        "wa_rosnumber_data" : "2'd0",
+        "wa_rvnumber_data" : "13'd0",
+        "wa_sync_sm_ctrl" : "pipe_sync_sm",
+        "wait_cnt" : "12'd0",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "auto_error_replacement" : "dis_err_replace",
+        "auto_speed_nego" : "dis_asn",
+        "bit_reversal" : "dis_bit_reversal",
+        "bonding_dft_en" : "dft_dis",
+        "bonding_dft_val" : "dft_0",
+        "bypass_pipeline_reg" : "dis_bypass_pipeline",
+        "byte_deserializer" : "en_bds_by_2",
+        "cdr_ctrl_rxvalid_mask" : "dis_rxvalid_mask",
+        "clkcmp_pattern_n" : "20'd0",
+        "clkcmp_pattern_p" : "20'd0",
+        "clock_gate_bds_dec_asn" : "dis_bds_dec_asn_clk_gating",
+        "clock_gate_cdr_eidle" : "en_cdr_eidle_clk_gating",
+        "clock_gate_dw_pc_wrclk" : "en_dw_pc_wrclk_gating",
+        "clock_gate_dw_rm_rd" : "en_dw_rm_rdclk_gating",
+        "clock_gate_dw_rm_wr" : "en_dw_rm_wrclk_gating",
+        "clock_gate_dw_wa" : "en_dw_wa_clk_gating",
+        "clock_gate_pc_rdclk" : "dis_pc_rdclk_gating",
+        "clock_gate_sw_pc_wrclk" : "dis_sw_pc_wrclk_gating",
+        "clock_gate_sw_rm_rd" : "dis_sw_rm_rdclk_gating",
+        "clock_gate_sw_rm_wr" : "dis_sw_rm_wrclk_gating",
+        "clock_gate_sw_wa" : "dis_sw_wa_clk_gating",
+        "clock_observation_in_pld_core" : "internal_sw_wa_clk",
+        "eidle_entry_eios" : "dis_eidle_eios",
+        "eidle_entry_iei" : "dis_eidle_iei",
+        "eidle_entry_sd" : "dis_eidle_sd",
+        "eightb_tenb_decoder" : "en_8b10b_ibm",
+        "err_flags_sel" : "err_flags_wa",
+        "fixed_pat_det" : "dis_fixed_patdet",
+        "fixed_pat_num" : "4'd0",
+        "force_signal_detect" : "en_force_signal_detect",
+        "gen3_clk_en" : "disable_clk",
+        "gen3_rx_clk_sel" : "rcvd_clk",
+        "gen3_tx_clk_sel" : "tx_pma_clk",
+        "hip_mode" : "dis_hip",
+        "ibm_invalid_code" : "dis_ibm_invalid_code",
+        "invalid_code_flag_only" : "dis_invalid_code_only",
+        "pad_or_edb_error_replace" : "replace_edb",
+        "pcs_bypass" : "dis_pcs_bypass",
+        "phase_comp_rdptr" : "disable_rdptr",
+        "phase_compensation_fifo" : "register_fifo",
+        "pipe_if_enable" : "dis_pipe_rx",
+        "pma_dw" : "ten_bit",
+        "polinv_8b10b_dec" : "dis_polinv_8b10b_dec",
+        "prot_mode" : "basic_rm_enable",
+        "rate_match" : "sw_basic_rm",
+        "rate_match_del_thres" : "sw_basic_rm_del_thres",
+        "rate_match_empty_thres" : "sw_basic_rm_empty_thres",
+        "rate_match_full_thres" : "sw_basic_rm_full_thres",
+        "rate_match_ins_thres" : "sw_basic_rm_ins_thres",
+        "rate_match_start_thres" : "sw_basic_rm_start_thres",
+        "rx_clk_free_running" : "en_rx_clk_free_run",
+        "rx_clk2" : "tx_pma_clock_clk2",
+        "rx_pcs_urst" : "en_rx_pcs_urst",
+        "rx_rcvd_clk" : "rcvd_clk_rcvd_clk",
+        "rx_rd_clk" : "rx_clk",
+        "rx_refclk" : "dis_refclk_sel",
+        "rx_wr_clk" : "rx_clk2_div_1_2_4",
+        "sup_mode" : "user_mode",
+        "symbol_swap" : "dis_symbol_swap",
+        "sync_sm_idle_eios" : "dis_syncsm_idle",
+        "test_bus_sel" : "tx_testbus",
+        "tx_rx_parallel_loopback" : "dis_plpbk",
+        "wa_boundary_lock_ctrl" : "sync_sm",
+        "wa_clk_slip_spacing" : "10'd16",
+        "wa_det_latency_sync_status_beh" : "dont_care_assert_sync",
+        "wa_disp_err_flag" : "en_disp_err_flag",
+        "wa_kchar" : "dis_kchar",
+        "wa_pd" : "wa_pd_10",
+        "wa_pd_data" : "380",
+        "wa_pd_polarity" : "dont_care_both_pol",
+        "wa_pld_controlled" : "dis_pld_ctrl",
+        "wa_renumber_data" : "6'd16",
+        "wa_rgnumber_data" : "8'd15",
+        "wa_rknumber_data" : "8'd3",
+        "wa_rosnumber_data" : "2'd0",
+        "wa_rvnumber_data" : "13'd0",
+        "wa_sync_sm_ctrl" : "sw_basic_sync_sm",
+        "wait_cnt" : "12'd0",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 242 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_8g_tx_pcs_rcfg_settings_o3savxa.json 3528 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "auto_speed_nego_gen2" : "dis_asn_g2",
+        "bit_reversal" : "dis_bit_reversal",
+        "bonding_dft_en" : "dft_dis",
+        "bonding_dft_val" : "dft_0",
+        "bypass_pipeline_reg" : "dis_bypass_pipeline",
+        "byte_serializer" : "en_bs_by_4",
+        "clock_gate_bs_enc" : "dis_bs_enc_clk_gating",
+        "clock_gate_dw_fifowr" : "en_dw_fifowr_clk_gating",
+        "clock_gate_fiford" : "dis_fiford_clk_gating",
+        "clock_gate_sw_fifowr" : "dis_sw_fifowr_clk_gating",
+        "clock_observation_in_pld_core" : "internal_refclk_b",
+        "data_selection_8b10b_encoder_input" : "normal_data_path",
+        "dynamic_clk_switch" : "en_dyn_clk_switch",
+        "eightb_tenb_disp_ctrl" : "en_disp_ctrl",
+        "eightb_tenb_encoder" : "en_8b10b_ibm",
+        "force_echar" : "dis_force_echar",
+        "force_kchar" : "dis_force_kchar",
+        "gen3_tx_clk_sel" : "tx_pma_clk",
+        "gen3_tx_pipe_clk_sel" : "func_clk",
+        "hip_mode" : "en_hip",
+        "pcs_bypass" : "dis_pcs_bypass",
+        "phase_comp_rdptr" : "disable_rdptr",
+        "phase_compensation_fifo" : "register_fifo",
+        "phfifo_write_clk_sel" : "tx_clk",
+        "pma_dw" : "ten_bit",
+        "prot_mode" : "pipe_g3",
+        "refclk_b_clk_sel" : "tx_pma_clock",
+        "revloop_back_rm" : "en_rev_loopback_rx_rm",
+        "sup_mode" : "user_mode",
+        "symbol_swap" : "dis_symbol_swap",
+        "tx_bitslip" : "dis_tx_bitslip",
+        "tx_compliance_controlled_disparity" : "en_txcompliance_pipe3p0",
+        "tx_fast_pld_reg" : "dis_tx_fast_pld_reg",
+        "txclk_freerun" : "en_freerun_tx",
+        "txpcs_urst" : "en_txpcs_urst",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "auto_speed_nego_gen2" : "dis_asn_g2",
+        "bit_reversal" : "dis_bit_reversal",
+        "bonding_dft_en" : "dft_dis",
+        "bonding_dft_val" : "dft_0",
+        "bypass_pipeline_reg" : "dis_bypass_pipeline",
+        "byte_serializer" : "en_bs_by_2",
+        "clock_gate_bs_enc" : "dis_bs_enc_clk_gating",
+        "clock_gate_dw_fifowr" : "en_dw_fifowr_clk_gating",
+        "clock_gate_fiford" : "dis_fiford_clk_gating",
+        "clock_gate_sw_fifowr" : "en_sw_fifowr_clk_gating",
+        "clock_observation_in_pld_core" : "internal_refclk_b",
+        "data_selection_8b10b_encoder_input" : "normal_data_path",
+        "dynamic_clk_switch" : "dis_dyn_clk_switch",
+        "eightb_tenb_disp_ctrl" : "en_disp_ctrl",
+        "eightb_tenb_encoder" : "en_8b10b_ibm",
+        "force_echar" : "dis_force_echar",
+        "force_kchar" : "dis_force_kchar",
+        "gen3_tx_clk_sel" : "dis_tx_clk",
+        "gen3_tx_pipe_clk_sel" : "dis_tx_pipe_clk",
+        "hip_mode" : "dis_hip",
+        "pcs_bypass" : "dis_pcs_bypass",
+        "phase_comp_rdptr" : "disable_rdptr",
+        "phase_compensation_fifo" : "register_fifo",
+        "phfifo_write_clk_sel" : "tx_clk",
+        "pma_dw" : "ten_bit",
+        "prot_mode" : "basic",
+        "refclk_b_clk_sel" : "tx_pma_clock",
+        "revloop_back_rm" : "dis_rev_loopback_rx_rm",
+        "sup_mode" : "user_mode",
+        "symbol_swap" : "dis_symbol_swap",
+        "tx_bitslip" : "dis_tx_bitslip",
+        "tx_compliance_controlled_disparity" : "dis_txcompliance",
+        "tx_fast_pld_reg" : "dis_tx_fast_pld_reg",
+        "txclk_freerun" : "en_freerun_tx",
+        "txpcs_urst" : "en_txpcs_urst",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 257 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_common_pcs_pma_interface_rcfg_settings_o3savxa.json 3804 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "asn_clk_enable" : "true",
+        "asn_enable" : "en_asn",
+        "block_sel" : "pcie_gen3",
+        "bypass_early_eios" : "false",
+        "bypass_pcie_switch" : "false",
+        "bypass_pma_ltr" : "false",
+        "bypass_pma_sw_done" : "true",
+        "bypass_ppm_lock" : "false",
+        "bypass_send_syncp_fbkp" : "true",
+        "bypass_txdetectrx" : "false",
+        "cdr_control" : "en_cdr_ctrl",
+        "cid_enable" : "en_cid_mode",
+        "data_mask_count" : "16'd2500",
+        "data_mask_count_multi" : "3'd1",
+        "dft_observation_clock_selection" : "dft_clk_obsrv_tx0",
+        "early_eios_counter" : "8'd50",
+        "force_freqdet" : "force_freqdet_dis",
+        "free_run_clk_enable" : "true",
+        "ignore_sigdet_g23" : "false",
+        "pc_en_counter" : "7'd55",
+        "pc_rst_counter" : "5'd23",
+        "pcie_hip_mode" : "hip_enable",
+        "ph_fifo_reg_mode" : "phfifo_reg_mode_en",
+        "phfifo_flush_wait" : "6'd36",
+        "pipe_if_g3pcs" : "pipe_if_g3pcs",
+        "pma_done_counter" : "18'd175000",
+        "pma_if_dft_en" : "dft_dis",
+        "pma_if_dft_val" : "dft_0",
+        "ppm_cnt_rst" : "ppm_cnt_rst_dis",
+        "ppm_deassert_early" : "deassert_early_en",
+        "ppm_gen1_2_cnt" : "cnt_32k",
+        "ppm_post_eidle_delay" : "cnt_200_cycles",
+        "ppmsel" : "ppmsel_1000",
+        "prot_mode" : "pipe_g3",
+        "rxvalid_mask" : "rxvalid_mask_en",
+        "sigdet_wait_counter" : "12'd2500",
+        "sigdet_wait_counter_multi" : "3'd1",
+        "sim_mode" : "disable",
+        "spd_chg_rst_wait_cnt_en" : "true",
+        "sup_mode" : "user_mode",
+        "testout_sel" : "asn_test",
+        "wait_clk_on_off_timer" : "4'd0",
+        "wait_pipe_synchronizing" : "5'd23",
+        "wait_send_syncp_fbkp" : "11'd250",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "asn_clk_enable" : "false",
+        "asn_enable" : "dis_asn",
+        "block_sel" : "eight_g_pcs",
+        "bypass_early_eios" : "true",
+        "bypass_pcie_switch" : "true",
+        "bypass_pma_ltr" : "true",
+        "bypass_pma_sw_done" : "true",
+        "bypass_ppm_lock" : "false",
+        "bypass_send_syncp_fbkp" : "true",
+        "bypass_txdetectrx" : "true",
+        "cdr_control" : "dis_cdr_ctrl",
+        "cid_enable" : "dis_cid_mode",
+        "data_mask_count" : "16'd0",
+        "data_mask_count_multi" : "3'd0",
+        "dft_observation_clock_selection" : "dft_clk_obsrv_tx0",
+        "early_eios_counter" : "8'd0",
+        "force_freqdet" : "force_freqdet_dis",
+        "free_run_clk_enable" : "false",
+        "ignore_sigdet_g23" : "false",
+        "pc_en_counter" : "7'd0",
+        "pc_rst_counter" : "5'd0",
+        "pcie_hip_mode" : "hip_disable",
+        "ph_fifo_reg_mode" : "phfifo_reg_mode_dis",
+        "phfifo_flush_wait" : "6'd0",
+        "pipe_if_g3pcs" : "pipe_if_8gpcs",
+        "pma_done_counter" : "18'd0",
+        "pma_if_dft_en" : "dft_dis",
+        "pma_if_dft_val" : "dft_0",
+        "ppm_cnt_rst" : "ppm_cnt_rst_dis",
+        "ppm_deassert_early" : "deassert_early_dis",
+        "ppm_gen1_2_cnt" : "cnt_32k",
+        "ppm_post_eidle_delay" : "cnt_200_cycles",
+        "ppmsel" : "ppmsel_1000",
+        "prot_mode" : "other_protocols",
+        "rxvalid_mask" : "rxvalid_mask_dis",
+        "sigdet_wait_counter" : "12'd0",
+        "sigdet_wait_counter_multi" : "3'd0",
+        "sim_mode" : "disable",
+        "spd_chg_rst_wait_cnt_en" : "false",
+        "sup_mode" : "user_mode",
+        "testout_sel" : "asn_test",
+        "wait_clk_on_off_timer" : "4'd0",
+        "wait_pipe_synchronizing" : "5'd0",
+        "wait_send_syncp_fbkp" : "11'd0",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 257 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_common_pld_pcs_interface_rcfg_settings_o3savxa.json 587 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "dft_clk_out_en" : "dft_clk_out_disable",
+        "dft_clk_out_sel" : "teng_rx_dft_clk",
+        "hrdrstctrl_en" : "hrst_en",
+        "pcs_testbus_block_sel" : "pma_if",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "dft_clk_out_en" : "dft_clk_out_disable",
+        "dft_clk_out_sel" : "teng_rx_dft_clk",
+        "hrdrstctrl_en" : "hrst_dis",
+        "pcs_testbus_block_sel" : "pma_if",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 244 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_gen3_rx_pcs_rcfg_settings_o3savxa.json 1467 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "block_sync" : "enable_block_sync",
+        "block_sync_sm" : "enable_blk_sync_sm",
+        "cdr_ctrl_force_unalgn" : "enable",
+        "lpbk_force" : "lpbk_frce_en",
+        "mode" : "gen3_func",
+        "rate_match_fifo" : "enable_rm_fifo_600ppm",
+        "rate_match_fifo_latency" : "regular_latency",
+        "reverse_lpbk" : "rev_lpbk_en",
+        "rx_b4gb_par_lpbk" : "b4gb_par_lpbk_dis",
+        "rx_force_balign" : "en_force_balign",
+        "rx_ins_del_one_skip" : "ins_del_one_skip_en",
+        "rx_num_fixed_pat" : "4'd8",
+        "rx_test_out_sel" : "rx_test_out0",
+        "sup_mode" : "user_mode",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "block_sync" : "bypass_block_sync",
+        "block_sync_sm" : "disable_blk_sync_sm",
+        "cdr_ctrl_force_unalgn" : "disable",
+        "lpbk_force" : "lpbk_frce_dis",
+        "mode" : "disable_pcs",
+        "rate_match_fifo" : "bypass_rm_fifo",
+        "rate_match_fifo_latency" : "low_latency",
+        "reverse_lpbk" : "rev_lpbk_dis",
+        "rx_b4gb_par_lpbk" : "b4gb_par_lpbk_dis",
+        "rx_force_balign" : "dis_force_balign",
+        "rx_ins_del_one_skip" : "ins_del_one_skip_dis",
+        "rx_num_fixed_pat" : "4'd0",
+        "rx_test_out_sel" : "rx_test_out0",
+        "sup_mode" : "user_mode",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 245 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_krfec_rx_pcs_rcfg_settings_o3savxa.json 160 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+      }
+    }
+  ]
+}
+
+ 244 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_pipe_gen1_2_rcfg_settings_o3savxa.json 1367 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "elec_idle_delay_val" : "3'd3",
+        "error_replace_pad" : "replace_edb",
+        "hip_mode" : "en_hip",
+        "ind_error_reporting" : "dis_ind_error_reporting",
+        "phystatus_delay_val" : "3'd0",
+        "phystatus_rst_toggle" : "dis_phystatus_rst_toggle",
+        "pipe_byte_de_serializer_en" : "dont_care_bds",
+        "prot_mode" : "pipe_g3",
+        "rx_pipe_enable" : "en_pipe3_rx",
+        "rxdetect_bypass" : "dis_rxdetect_bypass",
+        "sup_mode" : "user_mode",
+        "tx_pipe_enable" : "en_pipe3_tx",
+        "txswing" : "dis_txswing",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "elec_idle_delay_val" : "3'd0",
+        "error_replace_pad" : "replace_edb",
+        "hip_mode" : "dis_hip",
+        "ind_error_reporting" : "dis_ind_error_reporting",
+        "phystatus_delay_val" : "3'd0",
+        "phystatus_rst_toggle" : "dis_phystatus_rst_toggle",
+        "pipe_byte_de_serializer_en" : "dont_care_bds",
+        "prot_mode" : "basic",
+        "rx_pipe_enable" : "dis_pipe_rx",
+        "rxdetect_bypass" : "dis_rxdetect_bypass",
+        "sup_mode" : "user_mode",
+        "tx_pipe_enable" : "dis_pipe_tx",
+        "txswing" : "dis_txswing",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 253 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_rx_pcs_pma_interface_rcfg_settings_o3savxa.json 2044 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "block_sel" : "eight_g_pcs",
+        "channel_operation_mode" : "tx_rx_pair_enabled",
+        "clkslip_sel" : "pld",
+        "lpbk_en" : "disable",
+        "master_clk_sel" : "master_rx_pma_clk",
+        "pldif_datawidth_mode" : "pldif_data_10bit",
+        "pma_dw_rx" : "pcie_g3_dyn_dw_rx",
+        "pma_if_dft_en" : "dft_dis",
+        "pma_if_dft_val" : "dft_0",
+        "prbs_clken" : "prbs_clk_dis",
+        "prbs_ver" : "prbs_off",
+        "prbs9_dwidth" : "prbs9_64b",
+        "prot_mode_rx" : "eightg_g3_pcie_g3_hip_mode_rx",
+        "rx_dyn_polarity_inversion" : "rx_dyn_polinv_dis",
+        "rx_lpbk_en" : "lpbk_dis",
+        "rx_prbs_force_signal_ok" : "force_sig_ok",
+        "rx_prbs_mask" : "prbsmask128",
+        "rx_prbs_mode" : "teng_mode",
+        "rx_signalok_signaldet_sel" : "sel_sig_det",
+        "rx_static_polarity_inversion" : "rx_stat_polinv_dis",
+        "sup_mode" : "user_mode",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "block_sel" : "eight_g_pcs",
+        "channel_operation_mode" : "tx_rx_pair_enabled",
+        "clkslip_sel" : "pld",
+        "lpbk_en" : "disable",
+        "master_clk_sel" : "master_rx_pma_clk",
+        "pldif_datawidth_mode" : "pldif_data_10bit",
+        "pma_dw_rx" : "pma_10b_rx",
+        "pma_if_dft_en" : "dft_dis",
+        "pma_if_dft_val" : "dft_0",
+        "prbs_clken" : "prbs_clk_dis",
+        "prbs_ver" : "prbs_off",
+        "prbs9_dwidth" : "prbs9_64b",
+        "prot_mode_rx" : "eightg_basic_mode_rx",
+        "rx_dyn_polarity_inversion" : "rx_dyn_polinv_dis",
+        "rx_lpbk_en" : "lpbk_dis",
+        "rx_prbs_force_signal_ok" : "force_sig_ok",
+        "rx_prbs_mask" : "prbsmask128",
+        "rx_prbs_mode" : "teng_mode",
+        "rx_signalok_signaldet_sel" : "sel_sig_det",
+        "rx_static_polarity_inversion" : "rx_stat_polinv_dis",
+        "sup_mode" : "user_mode",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 253 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_rx_pld_pcs_interface_rcfg_settings_o3savxa.json 5432 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "hd_chnl_hip_en" : "enable",
+        "hd_chnl_transparent_pcs_rx" : "disable",
+        "hd_chnl_hrdrstctl_en" : "enable",
+        "hd_chnl_prot_mode_rx" : "pcie_g3_capable_rx",
+        "hd_chnl_ctrl_plane_bonding_rx" : "ctrl_master_rx",
+        "hd_chnl_pma_dw_rx" : "pcie_g3_dyn_dw_rx",
+        "hd_chnl_pld_fifo_mode_rx" : "reg_rx",
+        "hd_chnl_shared_fifo_width_rx" : "single_rx",
+        "hd_chnl_low_latency_en_rx" : "disable",
+        "hd_chnl_func_mode" : "enable",
+        "hd_chnl_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_chnl_lpbk_en" : "disable",
+        "hd_10g_advanced_user_mode_rx" : "disable",
+        "hd_chnl_frequency_rules_en" : "enable",
+        "hd_chnl_pma_rx_clk_hz" : "30'd500000000",
+        "hd_chnl_pld_rx_clk_hz" : "30'd0",
+        "hd_chnl_fref_clk_hz" : "30'd125000000",
+        "hd_chnl_clklow_clk_hz" : "30'd125000000",
+        "hd_fifo_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_fifo_prot_mode_rx" : "non_teng_mode_rx",
+        "hd_fifo_shared_fifo_width_rx" : "single_rx",
+        "hd_10g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_10g_lpbk_en" : "disable",
+        "hd_10g_pma_dw_rx" : "pma_64b_rx",
+        "hd_10g_fifo_mode_rx" : "fifo_rx",
+        "hd_10g_prot_mode_rx" : "disabled_prot_mode_rx",
+        "hd_10g_low_latency_en_rx" : "disable",
+        "hd_10g_shared_fifo_width_rx" : "single_rx",
+        "hd_10g_test_bus_mode" : "rx",
+        "hd_8g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_8g_lpbk_en" : "disable",
+        "hd_8g_prot_mode_rx" : "pipe_g3_rx",
+        "hd_8g_hip_mode" : "enable",
+        "hd_8g_pma_dw_rx" : "pma_10b_rx",
+        "hd_8g_fifo_mode_rx" : "reg_rx",
+        "hd_g3_prot_mode" : "pipe_g3",
+        "hd_krfec_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_krfec_lpbk_en" : "disable",
+        "hd_krfec_prot_mode_rx" : "disabled_prot_mode_rx",
+        "hd_krfec_low_latency_en_rx" : "disable",
+        "hd_krfec_test_bus_mode" : "tx",
+        "hd_pmaif_lpbk_en" : "disable",
+        "hd_pmaif_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_pmaif_sim_mode" : "disable",
+        "hd_pmaif_prot_mode_rx" : "eightg_g3_pcie_g3_hip_mode_rx",
+        "hd_pmaif_pma_dw_rx" : "pcie_g3_dyn_dw_rx",
+        "hd_pldif_prot_mode_rx" : "eightg_and_g3_reg_mode_hip_rx",
+        "hd_pldif_hrdrstctl_en" : "enable",
+        "pcs_rx_block_sel" : "eightg",
+        "pcs_rx_clk_sel" : "pcs_rx_clk",
+        "pcs_rx_hip_clk_en" : "hip_rx_enable",
+        "pcs_rx_output_sel" : "teng_output",
+        "pcs_rx_clk_out_sel" : "eightg_clk_out",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "hd_chnl_hip_en" : "disable",
+        "hd_chnl_transparent_pcs_rx" : "disable",
+        "hd_chnl_hrdrstctl_en" : "disable",
+        "hd_chnl_prot_mode_rx" : "basic_8gpcs_rm_enable_rx",
+        "hd_chnl_ctrl_plane_bonding_rx" : "individual_rx",
+        "hd_chnl_pma_dw_rx" : "pma_10b_rx",
+        "hd_chnl_pld_fifo_mode_rx" : "reg_rx",
+        "hd_chnl_shared_fifo_width_rx" : "single_rx",
+        "hd_chnl_low_latency_en_rx" : "disable",
+        "hd_chnl_func_mode" : "enable",
+        "hd_chnl_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_chnl_lpbk_en" : "disable",
+        "hd_10g_advanced_user_mode_rx" : "disable",
+        "hd_chnl_frequency_rules_en" : "enable",
+        "hd_chnl_pma_rx_clk_hz" : "30'd500000000",
+        "hd_chnl_pld_rx_clk_hz" : "30'd0",
+        "hd_chnl_fref_clk_hz" : "30'd125000000",
+        "hd_chnl_clklow_clk_hz" : "30'd125000000",
+        "hd_fifo_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_fifo_prot_mode_rx" : "non_teng_mode_rx",
+        "hd_fifo_shared_fifo_width_rx" : "single_rx",
+        "hd_10g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_10g_lpbk_en" : "disable",
+        "hd_10g_pma_dw_rx" : "pma_64b_rx",
+        "hd_10g_fifo_mode_rx" : "fifo_rx",
+        "hd_10g_prot_mode_rx" : "disabled_prot_mode_rx",
+        "hd_10g_low_latency_en_rx" : "disable",
+        "hd_10g_shared_fifo_width_rx" : "single_rx",
+        "hd_10g_test_bus_mode" : "rx",
+        "hd_8g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_8g_lpbk_en" : "disable",
+        "hd_8g_prot_mode_rx" : "basic_rm_enable_rx",
+        "hd_8g_hip_mode" : "disable",
+        "hd_8g_pma_dw_rx" : "pma_10b_rx",
+        "hd_8g_fifo_mode_rx" : "reg_rx",
+        "hd_g3_prot_mode" : "disabled_prot_mode",
+        "hd_krfec_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_krfec_lpbk_en" : "disable",
+        "hd_krfec_prot_mode_rx" : "disabled_prot_mode_rx",
+        "hd_krfec_low_latency_en_rx" : "disable",
+        "hd_krfec_test_bus_mode" : "tx",
+        "hd_pmaif_lpbk_en" : "disable",
+        "hd_pmaif_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_pmaif_sim_mode" : "disable",
+        "hd_pmaif_prot_mode_rx" : "eightg_basic_mode_rx",
+        "hd_pmaif_pma_dw_rx" : "pma_10b_rx",
+        "hd_pldif_prot_mode_rx" : "eightg_and_g3_reg_mode_rx",
+        "hd_pldif_hrdrstctl_en" : "disable",
+        "pcs_rx_block_sel" : "eightg",
+        "pcs_rx_clk_sel" : "pcs_rx_clk",
+        "pcs_rx_hip_clk_en" : "hip_rx_disable",
+        "pcs_rx_output_sel" : "teng_output",
+        "pcs_rx_clk_out_sel" : "eightg_clk_out",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 253 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_tx_pcs_pma_interface_rcfg_settings_o3savxa.json 1931 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "bypass_pma_txelecidle" : "false",
+        "channel_operation_mode" : "tx_rx_pair_enabled",
+        "lpbk_en" : "disable",
+        "master_clk_sel" : "master_tx_pma_clk",
+        "pcie_sub_prot_mode_tx" : "pipe_g3",
+        "pldif_datawidth_mode" : "pldif_data_10bit",
+        "pma_dw_tx" : "pcie_g3_dyn_dw_tx",
+        "pma_if_dft_en" : "dft_dis",
+        "pmagate_en" : "pmagate_dis",
+        "prbs_clken" : "prbs_clk_dis",
+        "prbs_gen_pat" : "prbs_gen_dis",
+        "prbs9_dwidth" : "prbs9_64b",
+        "prot_mode_tx" : "eightg_g3_pcie_g3_hip_mode_tx",
+        "sq_wave_num" : "sq_wave_default",
+        "sqwgen_clken" : "sqwgen_clk_dis",
+        "sup_mode" : "user_mode",
+        "tx_dyn_polarity_inversion" : "tx_dyn_polinv_dis",
+        "tx_pma_data_sel" : "pcie_gen3",
+        "tx_static_polarity_inversion" : "tx_stat_polinv_dis",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "bypass_pma_txelecidle" : "true",
+        "channel_operation_mode" : "tx_rx_pair_enabled",
+        "lpbk_en" : "disable",
+        "master_clk_sel" : "master_tx_pma_clk",
+        "pcie_sub_prot_mode_tx" : "other_prot_mode",
+        "pldif_datawidth_mode" : "pldif_data_10bit",
+        "pma_dw_tx" : "pma_10b_tx",
+        "pma_if_dft_en" : "dft_dis",
+        "pmagate_en" : "pmagate_dis",
+        "prbs_clken" : "prbs_clk_dis",
+        "prbs_gen_pat" : "prbs_gen_dis",
+        "prbs9_dwidth" : "prbs9_64b",
+        "prot_mode_tx" : "eightg_basic_mode_tx",
+        "sq_wave_num" : "sq_wave_default",
+        "sqwgen_clken" : "sqwgen_clk_dis",
+        "sup_mode" : "user_mode",
+        "tx_dyn_polarity_inversion" : "tx_dyn_polinv_dis",
+        "tx_pma_data_sel" : "eight_g_pcs",
+        "tx_static_polarity_inversion" : "tx_stat_polinv_dis",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+ 253 /home/ebots/EBOTS/FPGA/Projects/FPGA_PCIE_Gen3x8_AVMM_DMA_w_XAVIER/00_FPGA_Design/Arria10_PCIeGen3x8_DMA_19_2_project/platform/ip/top_hw/top_DUT/altera_xcvr_native_a10_191/synth/rcfg_timing_db/top_DUT_hssi_tx_pld_pcs_interface_rcfg_settings_o3savxa.json 5475 { 
+  "configurations" : [
+    { 
+      "name" : "0",
+      "parameters" :{
+        "hd_chnl_hip_en" : "enable",
+        "hd_chnl_hrdrstctl_en" : "enable",
+        "hd_chnl_prot_mode_tx" : "pcie_g3_capable_tx",
+        "hd_chnl_ctrl_plane_bonding_tx" : "ctrl_master_tx",
+        "hd_chnl_pma_dw_tx" : "pcie_g3_dyn_dw_tx",
+        "hd_chnl_pld_fifo_mode_tx" : "reg_tx",
+        "hd_chnl_shared_fifo_width_tx" : "single_tx",
+        "hd_chnl_low_latency_en_tx" : "disable",
+        "hd_chnl_func_mode" : "enable",
+        "hd_chnl_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_chnl_lpbk_en" : "disable",
+        "hd_chnl_frequency_rules_en" : "enable",
+        "hd_chnl_pma_tx_clk_hz" : "30'd500000000",
+        "hd_chnl_pld_tx_clk_hz" : "30'd0",
+        "hd_fifo_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_fifo_prot_mode_tx" : "non_teng_mode_tx",
+        "hd_fifo_shared_fifo_width_tx" : "single_tx",
+        "hd_10g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_10g_lpbk_en" : "disable",
+        "hd_10g_advanced_user_mode_tx" : "disable",
+        "hd_10g_pma_dw_tx" : "pma_64b_tx",
+        "hd_10g_fifo_mode_tx" : "fifo_tx",
+        "hd_10g_prot_mode_tx" : "disabled_prot_mode_tx",
+        "hd_10g_low_latency_en_tx" : "disable",
+        "hd_10g_shared_fifo_width_tx" : "single_tx",
+        "hd_8g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_8g_lpbk_en" : "disable",
+        "hd_8g_prot_mode_tx" : "pipe_g3_tx",
+        "hd_8g_hip_mode" : "enable",
+        "hd_8g_pma_dw_tx" : "pma_10b_tx",
+        "hd_8g_fifo_mode_tx" : "reg_tx",
+        "hd_g3_prot_mode" : "pipe_g3",
+        "hd_krfec_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_krfec_lpbk_en" : "disable",
+        "hd_krfec_prot_mode_tx" : "disabled_prot_mode_tx",
+        "hd_krfec_low_latency_en_tx" : "disable",
+        "hd_pmaif_lpbk_en" : "disable",
+        "hd_pmaif_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_pmaif_sim_mode" : "disable",
+        "hd_pmaif_prot_mode_tx" : "eightg_g3_pcie_g3_hip_mode_tx",
+        "hd_pmaif_pma_dw_tx" : "pcie_g3_dyn_dw_tx",
+        "hd_pldif_prot_mode_tx" : "eightg_and_g3_reg_mode_hip_tx",
+        "hd_pldif_hrdrstctl_en" : "enable",
+        "pcs_tx_clk_source" : "eightg",
+        "pcs_tx_data_source" : "hip_enable",
+        "pcs_tx_delay1_clk_en" : "delay1_clk_disable",
+        "pcs_tx_delay1_clk_sel" : "pcs_tx_clk",
+        "pcs_tx_delay1_ctrl" : "delay1_path0",
+        "pcs_tx_delay1_data_sel" : "one_ff_delay",
+        "pcs_tx_delay2_clk_en" : "delay2_clk_disable",
+        "pcs_tx_delay2_ctrl" : "delay2_path0",
+        "pcs_tx_output_sel" : "teng_output",
+        "pcs_tx_clk_out_sel" : "eightg_clk_out",
+        "reconfig_settings" : "{}"
+      }
+    },
+    { 
+      "name" : "1",
+      "parameters" :{
+        "hd_chnl_hip_en" : "disable",
+        "hd_chnl_hrdrstctl_en" : "disable",
+        "hd_chnl_prot_mode_tx" : "basic_8gpcs_tx",
+        "hd_chnl_ctrl_plane_bonding_tx" : "ctrl_master_tx",
+        "hd_chnl_pma_dw_tx" : "pma_10b_tx",
+        "hd_chnl_pld_fifo_mode_tx" : "reg_tx",
+        "hd_chnl_shared_fifo_width_tx" : "single_tx",
+        "hd_chnl_low_latency_en_tx" : "disable",
+        "hd_chnl_func_mode" : "enable",
+        "hd_chnl_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_chnl_lpbk_en" : "disable",
+        "hd_chnl_frequency_rules_en" : "enable",
+        "hd_chnl_pma_tx_clk_hz" : "30'd500000000",
+        "hd_chnl_pld_tx_clk_hz" : "30'd0",
+        "hd_fifo_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_fifo_prot_mode_tx" : "non_teng_mode_tx",
+        "hd_fifo_shared_fifo_width_tx" : "single_tx",
+        "hd_10g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_10g_lpbk_en" : "disable",
+        "hd_10g_advanced_user_mode_tx" : "disable",
+        "hd_10g_pma_dw_tx" : "pma_64b_tx",
+        "hd_10g_fifo_mode_tx" : "fifo_tx",
+        "hd_10g_prot_mode_tx" : "disabled_prot_mode_tx",
+        "hd_10g_low_latency_en_tx" : "disable",
+        "hd_10g_shared_fifo_width_tx" : "single_tx",
+        "hd_8g_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_8g_lpbk_en" : "disable",
+        "hd_8g_prot_mode_tx" : "basic_tx",
+        "hd_8g_hip_mode" : "disable",
+        "hd_8g_pma_dw_tx" : "pma_10b_tx",
+        "hd_8g_fifo_mode_tx" : "reg_tx",
+        "hd_g3_prot_mode" : "disabled_prot_mode",
+        "hd_krfec_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_krfec_lpbk_en" : "disable",
+        "hd_krfec_prot_mode_tx" : "disabled_prot_mode_tx",
+        "hd_krfec_low_latency_en_tx" : "disable",
+        "hd_pmaif_lpbk_en" : "disable",
+        "hd_pmaif_channel_operation_mode" : "tx_rx_pair_enabled",
+        "hd_pmaif_sim_mode" : "disable",
+        "hd_pmaif_prot_mode_tx" : "eightg_basic_mode_tx",
+        "hd_pmaif_pma_dw_tx" : "pma_10b_tx",
+        "hd_pldif_prot_mode_tx" : "eightg_and_g3_reg_mode_tx",
+        "hd_pldif_hrdrstctl_en" : "disable",
+        "pcs_tx_clk_source" : "eightg",
+        "pcs_tx_data_source" : "hip_disable",
+        "pcs_tx_delay1_clk_en" : "delay1_clk_disable",
+        "pcs_tx_delay1_clk_sel" : "pcs_tx_clk",
+        "pcs_tx_delay1_ctrl" : "delay1_path0",
+        "pcs_tx_delay1_data_sel" : "one_ff_delay",
+        "pcs_tx_delay2_clk_en" : "delay2_clk_disable",
+        "pcs_tx_delay2_ctrl" : "delay2_path0",
+        "pcs_tx_output_sel" : "teng_output",
+        "pcs_tx_clk_out_sel" : "eightg_clk_out",
+        "reconfig_settings" : "{}"
+      }
+    }
+  ]
+}
+
+

@@ -1,0 +1,450 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions
+# and other software and tools, and its AMPP partner logic
+# functions, and any output files from any of the foregoing
+# (including device programming or simulation files), and any
+# associated documentation or information are expressly subject
+# to the terms and conditions of the Altera Program License
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other
+# applicable license agreement, including, without limitation,
+# that your use is for the sole purpose of programming logic
+# devices manufactured by Altera and sold by Altera or its
+# authorized distributors.  Please refer to the applicable
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 14.1a10s.0 Build 656 01/28/2015 SJ Full Version
+# Date created = 13:25:17  March 09, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#   top_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#   assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Arria 10"
+set_global_assignment -name DEVICE 10AX115S2F45I1SG
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.1A10S.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:25:17  MARCH 09, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.2.0 Pro Edition"
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 4
+
+set_location_assignment PIN_E26 -to emif_0_mem_dbi_n[0]
+set_location_assignment PIN_G27 -to emif_0_mem_dbi_n[1]
+set_location_assignment PIN_A29 -to emif_0_mem_dbi_n[2]
+set_location_assignment PIN_F30 -to emif_0_mem_dbi_n[3]
+set_location_assignment PIN_AB32 -to emif_0_mem_dbi_n[4]
+set_location_assignment PIN_AG31 -to emif_0_mem_dbi_n[5]
+set_location_assignment PIN_Y35 -to emif_0_mem_dbi_n[6]
+set_location_assignment PIN_AC34 -to emif_0_mem_dbi_n[7]
+
+#Group0
+set_location_assignment PIN_B28 -to emif_0_mem_dq[0]
+set_location_assignment PIN_A28 -to emif_0_mem_dq[1]
+set_location_assignment PIN_A27 -to emif_0_mem_dq[2]
+set_location_assignment PIN_B27 -to emif_0_mem_dq[3]
+set_location_assignment PIN_D27 -to emif_0_mem_dq[4]
+set_location_assignment PIN_E27 -to emif_0_mem_dq[5]
+set_location_assignment PIN_D26 -to emif_0_mem_dq[6]
+set_location_assignment PIN_D28 -to emif_0_mem_dq[7]
+
+set_location_assignment PIN_B26 -to emif_0_mem_dqs[0]
+set_location_assignment PIN_C26 -to emif_0_mem_dqs_n[0]
+
+#Group1
+set_location_assignment PIN_G25 -to emif_0_mem_dq[8]
+set_location_assignment PIN_H25 -to emif_0_mem_dq[9]
+set_location_assignment PIN_G26 -to emif_0_mem_dq[10]
+set_location_assignment PIN_H26 -to emif_0_mem_dq[11]
+set_location_assignment PIN_G28 -to emif_0_mem_dq[12]
+set_location_assignment PIN_F27 -to emif_0_mem_dq[13]
+set_location_assignment PIN_K27 -to emif_0_mem_dq[14]
+set_location_assignment PIN_F28 -to emif_0_mem_dq[15]
+
+set_location_assignment PIN_H28 -to emif_0_mem_dqs[1]
+set_location_assignment PIN_J27 -to emif_0_mem_dqs_n[1]
+
+#Group 2
+set_location_assignment PIN_D31 -to emif_0_mem_dq[16]
+set_location_assignment PIN_E31 -to emif_0_mem_dq[17]
+set_location_assignment PIN_B31 -to emif_0_mem_dq[18]
+set_location_assignment PIN_C31 -to emif_0_mem_dq[19]
+set_location_assignment PIN_A30 -to emif_0_mem_dq[20]
+set_location_assignment PIN_E30 -to emif_0_mem_dq[21]
+set_location_assignment PIN_B30 -to emif_0_mem_dq[22]
+set_location_assignment PIN_D29 -to emif_0_mem_dq[23]
+
+set_location_assignment PIN_C30 -to emif_0_mem_dqs[2]
+set_location_assignment PIN_C29 -to emif_0_mem_dqs_n[2]
+
+#set_location_assignment PIN_A29 -to emif_0_mem_dm[2]
+
+#Group 3
+set_location_assignment PIN_K30 -to emif_0_mem_dq[24]
+set_location_assignment PIN_H30 -to emif_0_mem_dq[25]
+set_location_assignment PIN_G30 -to emif_0_mem_dq[26]
+set_location_assignment PIN_K31 -to emif_0_mem_dq[27]
+set_location_assignment PIN_H29 -to emif_0_mem_dq[28]
+set_location_assignment PIN_K29 -to emif_0_mem_dq[29]
+set_location_assignment PIN_J29 -to emif_0_mem_dq[30]
+set_location_assignment PIN_F29 -to emif_0_mem_dq[31]
+
+set_location_assignment PIN_L30 -to emif_0_mem_dqs[3]
+set_location_assignment PIN_L29 -to emif_0_mem_dqs_n[3]
+
+#set_location_assignment PIN_F30 -to emif_0_mem_dm[3]
+
+#Group 4
+set_location_assignment PIN_AC31 -to emif_0_mem_dq[32]
+set_location_assignment PIN_AB31 -to emif_0_mem_dq[33]
+set_location_assignment PIN_W31 -to emif_0_mem_dq[34]
+set_location_assignment PIN_Y31 -to emif_0_mem_dq[35]
+set_location_assignment PIN_AD31 -to emif_0_mem_dq[36]
+set_location_assignment PIN_AD32 -to emif_0_mem_dq[37]
+set_location_assignment PIN_AD33 -to emif_0_mem_dq[38]
+set_location_assignment PIN_AA30 -to emif_0_mem_dq[39]
+
+set_location_assignment PIN_Y32 -to emif_0_mem_dqs[4]
+set_location_assignment PIN_AA32 -to emif_0_mem_dqs_n[4]
+
+#set_location_assignment PIN_AB32 -to emif_0_mem_dm[4]
+
+#Group 5
+set_location_assignment PIN_AE31 -to emif_0_mem_dq[40]
+set_location_assignment PIN_AE32 -to emif_0_mem_dq[41]
+set_location_assignment PIN_AE30 -to emif_0_mem_dq[42]
+set_location_assignment PIN_AF30 -to emif_0_mem_dq[43]
+set_location_assignment PIN_AG33 -to emif_0_mem_dq[44]
+set_location_assignment PIN_AG32 -to emif_0_mem_dq[45]
+set_location_assignment PIN_AH33 -to emif_0_mem_dq[46]
+set_location_assignment PIN_AH31 -to emif_0_mem_dq[47]
+
+set_location_assignment PIN_AJ32 -to emif_0_mem_dqs[5]
+set_location_assignment PIN_AJ31 -to emif_0_mem_dqs_n[5]
+
+#set_location_assignment PIN_AG31 -to emif_0_mem_dm[5]
+
+#Group 6
+set_location_assignment PIN_U31 -to emif_0_mem_dq[48]
+set_location_assignment PIN_W33 -to emif_0_mem_dq[49]
+set_location_assignment PIN_W32 -to emif_0_mem_dq[50]
+set_location_assignment PIN_V31 -to emif_0_mem_dq[51]
+set_location_assignment PIN_Y34 -to emif_0_mem_dq[52]
+set_location_assignment PIN_W35 -to emif_0_mem_dq[53]
+set_location_assignment PIN_W34 -to emif_0_mem_dq[54]
+set_location_assignment PIN_V34 -to emif_0_mem_dq[55]
+
+set_location_assignment PIN_AA34 -to emif_0_mem_dqs[6]
+set_location_assignment PIN_AA33 -to emif_0_mem_dqs_n[6]
+
+#set_location_assignment PIN_Y35 -to emif_0_mem_dm[6]
+
+#Group 7
+set_location_assignment PIN_AH35 -to emif_0_mem_dq[56]
+set_location_assignment PIN_AJ34 -to emif_0_mem_dq[57]
+set_location_assignment PIN_AJ33 -to emif_0_mem_dq[58]
+set_location_assignment PIN_AH34 -to emif_0_mem_dq[59]
+set_location_assignment PIN_AD35 -to emif_0_mem_dq[60]
+set_location_assignment PIN_AE34 -to emif_0_mem_dq[61]
+set_location_assignment PIN_AC33 -to emif_0_mem_dq[62]
+set_location_assignment PIN_AD34 -to emif_0_mem_dq[63]
+
+set_location_assignment PIN_AF33 -to emif_0_mem_dqs[7]
+set_location_assignment PIN_AF34 -to emif_0_mem_dqs_n[7]
+
+#set_location_assignment PIN_AC34 -to emif_0_mem_dm[7]
+
+#Group 8
+set_location_assignment PIN_A33 -to emif_0_mem_dq[64]
+set_location_assignment PIN_B32 -to emif_0_mem_dq[65]
+set_location_assignment PIN_D32 -to emif_0_mem_dq[66]
+set_location_assignment PIN_C33 -to emif_0_mem_dq[67]
+set_location_assignment PIN_B33 -to emif_0_mem_dq[68]
+set_location_assignment PIN_D34 -to emif_0_mem_dq[69]
+set_location_assignment PIN_C35 -to emif_0_mem_dq[70]
+set_location_assignment PIN_E34 -to emif_0_mem_dq[71]
+
+set_location_assignment PIN_D33 -to emif_0_mem_dqs[8]
+set_location_assignment PIN_C34 -to emif_0_mem_dqs_n[8]
+
+#set_location_assignment PIN_A32 -to emif_0_mem_dm[8]
+
+############ADDRESS, CLK, RZQ and REF Clock pins##################
+#middel tile RZQ
+set_location_assignment PIN_J34 -to emif_0_oct_rzqin
+#bottom tile RZQ
+#set_location_assignment PIN_AF32 -to oct_oct_rzqin
+
+set_location_assignment PIN_M32 -to emif_0_mem_a[0]
+set_location_assignment PIN_L32 -to emif_0_mem_a[1]
+set_location_assignment PIN_N34 -to emif_0_mem_a[2]
+set_location_assignment PIN_M35 -to emif_0_mem_a[3]
+set_location_assignment PIN_L34 -to emif_0_mem_a[4]
+set_location_assignment PIN_K34 -to emif_0_mem_a[5]
+set_location_assignment PIN_M33 -to emif_0_mem_a[6]
+set_location_assignment PIN_L33 -to emif_0_mem_a[7]
+set_location_assignment PIN_J33 -to emif_0_mem_a[8]
+set_location_assignment PIN_J32 -to emif_0_mem_a[9]
+set_location_assignment PIN_H31 -to emif_0_mem_a[10]
+set_location_assignment PIN_J31 -to emif_0_mem_a[11]
+set_location_assignment PIN_H34 -to emif_0_mem_a[12]
+set_location_assignment PIN_H33 -to emif_0_mem_a[13]
+set_location_assignment PIN_G32 -to emif_0_mem_a[14]
+set_location_assignment PIN_E32 -to emif_0_mem_a[15]
+set_location_assignment PIN_F32 -to emif_0_mem_a[16]
+
+set_location_assignment PIN_F33 -to emif_0_mem_ba[0]
+set_location_assignment PIN_G35 -to emif_0_mem_ba[1]
+set_location_assignment PIN_H35 -to emif_0_mem_bg[0]
+#set_location_assignment PIN_T34 -to emif_0_mem_bg[1]
+
+set_location_assignment PIN_R30 -to emif_0_mem_ck[0]
+set_location_assignment PIN_R31 -to emif_0_mem_ck_n[0]
+set_location_assignment PIN_U33 -to emif_0_mem_cke[0]
+
+set_location_assignment PIN_R34 -to emif_0_mem_cs_n[0]
+set_location_assignment PIN_P34 -to emif_0_mem_act_n[0]
+set_location_assignment PIN_N33 -to emif_0_mem_odt[0]
+set_location_assignment PIN_T35 -to emif_0_mem_reset_n[0]
+set_location_assignment PIN_T32 -to emif_0_mem_par[0]
+
+set_location_assignment PIN_E35 -to emif_0_mem_alert_n[0]
+
+set_location_assignment PIN_F35 -to "emif_0_pll_ref_clk(n)"
+set_location_assignment PIN_F34 -to emif_0_pll_ref_clk
+
+
+#set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "1.8 V"
+#set_location_assignment PIN_L28 -to emif_0_local_cal_fail
+#set_location_assignment PIN_L27 -to emif_0_local_cal_success
+#set_location_assignment PIN_K25 -to emif_0_tg_0_traffic_gen_fail
+#set_location_assignment PIN_K24 -to emif_0_tg_0_traffic_gen_pass
+#set_location_assignment PIN_J24 -to emif_0_tg_0_traffic_gen_timeout
+#set_location_assignment PIN_K26 -to led_green
+#set_location_assignment PIN_J24 -to pll_lock_n
+#set_location_assignment PIN_U11 -to emif_0_global_reset_n
+
+set_global_assignment -name VERILOG_MACRO "ALTERA_EMIF_ENABLE_ISSP=1"
+
+set_location_assignment PIN_AT39 -to "hip_serial_rx_in0(n)"
+set_location_assignment PIN_AT40 -to hip_serial_rx_in0
+
+set_location_assignment PIN_BB43 -to "hip_serial_tx_out0(n)"
+set_location_assignment PIN_BB44 -to hip_serial_tx_out0
+set_location_assignment PIN_AP39 -to "hip_serial_rx_in1(n)"
+set_location_assignment PIN_AP40 -to hip_serial_rx_in1
+
+set_location_assignment PIN_BA41 -to "hip_serial_tx_out1(n)"
+set_location_assignment PIN_BA42 -to hip_serial_tx_out1
+set_location_assignment PIN_AN41 -to "hip_serial_rx_in2(n)"
+set_location_assignment PIN_AN42 -to hip_serial_rx_in2
+
+set_location_assignment PIN_AY43 -to "hip_serial_tx_out2(n)"
+set_location_assignment PIN_AY44 -to hip_serial_tx_out2
+set_location_assignment PIN_AM39 -to "hip_serial_rx_in3(n)"
+set_location_assignment PIN_AM40 -to hip_serial_rx_in3
+
+set_location_assignment PIN_AW41 -to "hip_serial_tx_out3(n)"
+set_location_assignment PIN_AW42 -to hip_serial_tx_out3
+set_location_assignment PIN_AL41 -to "hip_serial_rx_in4(n)"
+set_location_assignment PIN_AL42 -to hip_serial_rx_in4
+
+set_location_assignment PIN_AV43 -to "hip_serial_tx_out4(n)"
+set_location_assignment PIN_AV44 -to hip_serial_tx_out4
+set_location_assignment PIN_AK39 -to "hip_serial_rx_in5(n)"
+set_location_assignment PIN_AK40 -to hip_serial_rx_in5
+
+set_location_assignment PIN_AU41 -to "hip_serial_tx_out5(n)"
+set_location_assignment PIN_AU42 -to hip_serial_tx_out5
+set_location_assignment PIN_AJ41 -to "hip_serial_rx_in6(n)"
+set_location_assignment PIN_AJ42 -to hip_serial_rx_in6
+
+set_location_assignment PIN_AT43 -to "hip_serial_tx_out6(n)"
+set_location_assignment PIN_AT44 -to hip_serial_tx_out6
+set_location_assignment PIN_AH39 -to "hip_serial_rx_in7(n)"
+set_location_assignment PIN_AH40 -to hip_serial_rx_in7
+
+set_location_assignment PIN_AR41 -to "hip_serial_tx_out7(n)"
+set_location_assignment PIN_AR42 -to hip_serial_tx_out7
+set_location_assignment PIN_AL37 -to refclk_clk
+set_location_assignment PIN_AL38 -to "refclk_clk(n)"
+
+set_location_assignment PIN_BC30 -to perstn_perstn
+#set_location_assignment PIN_AV24 -to dk_free_clk
+#set_location_assignment PIN_BA27 -to dk_lane_active_led[0]
+#set_location_assignment PIN_BB27 -to dk_lane_active_led[2]
+#set_location_assignment PIN_BD28 -to dk_lane_active_led[3]
+#set_location_assignment PIN_BC28 -to dk_gen2_led
+#set_location_assignment PIN_BC29 -to dk_gen3_led
+#set_location_assignment PIN_L28 -to dk_L0_led
+set_location_assignment PIN_K26 -to dk_alive_led
+#set_location_assignment PIN_K25 -to dk_comp_led
+#set_location_assignment PIN_T12 -to dut_npor_npor
+#set_location_assignment PIN_U12 -to dk_req_compliance_pb
+#set_location_assignment PIN_A24 -to dk_set_compliance_mode
+# Obsolete assignment in <Version 19.2> "set_global_assignment -name ENABLE_DRC_SETTINGS OFF"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY pcie_quartus_files
+
+#set_location_assignment PIN_U11 -to reset_to_emifn
+
+
+
+
+
+
+
+
+
+#set_instance_assignment -name GLOBAL_SIGNAL OFF -to "altpcie_a10_hip_hwtcl:dut|app_rstn"
+#set_instance_assignment -name GLOBAL_SIGNAL OFF -to "altera_reset_controller:rst_controller|r_sync_rst"
+
+#set_global_assignment -name POST_FLOW_SCRIPT_FILE "quartus_asm:./pcie_quartus_files/asm_post_process_PCIe_Gen3_8_bottom_left_HIP_1.tcl"
+
+
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name OPTIMIZATION_TECHNIQUE BALANCED
+
+set_global_assignment -name USE_SIGNALTAP_FILE top.stp
+#set_location_assignment PIN_BC30 -to dut_npor_pin_perst
+
+set_global_assignment -name OPTIMIZATION_MODE "HIGH PERFORMANCE EFFORT"
+set_global_assignment -name ALLOW_REGISTER_MERGING OFF
+set_global_assignment -name ALLOW_REGISTER_RETIMING ON
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name POWER_AUTO_COMPUTE_TJ ON
+set_global_assignment -name PLACEMENT_EFFORT_MULTIPLIER 2.0
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
+set_global_assignment -name QII_AUTO_PACKED_REGISTERS NORMAL
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_global_assignment -name PHYSICAL_SYNTHESIS ON
+set_global_assignment -name PROGRAMMABLE_POWER_TECHNOLOGY_SETTING "FORCE ALL TILES WITH FAILING TIMING PATHS TO HIGH SPEED"
+
+# The following assignments have been added by quartus_dse for group dse1
+
+
+
+# The following assignments have been added by quartus_dse for group dse1
+set_global_assignment -tag dse_compilation -name SEED 17
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity top -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT -entity top -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity top -section_id Top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in0 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out0 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in1 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out1 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in2 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out2 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in3 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out3 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in4 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out4 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in5 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out5 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in6 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out6 -entity top
+set_instance_assignment -name IO_STANDARD CML -to hip_serial_rx_in7 -entity top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to hip_serial_tx_out7 -entity top
+set_instance_assignment -name IO_STANDARD HCSL -to refclk_clk -entity top
+set_instance_assignment -name IO_STANDARD LVDS -to dk_free_clk -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_lane_active_led[0] -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_lane_active_led[2] -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_lane_active_led[3] -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_gen2_led -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_gen3_led -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_L0_led -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_alive_led -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_comp_led -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dut_npor_npor -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_req_compliance_pb -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dk_set_compliance_mode -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to reset_to_emifn -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in0 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in0 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in0 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in0 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in0 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in1 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in1 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in1 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in1 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in1 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in2 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in2 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in2 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in2 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in2 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in3 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in3 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in3 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in3 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in3 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in4 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in4 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in4 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in4 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in4 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in5 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in5 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in5 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in5 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in5 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in6 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in6 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in6 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in6 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in6 -entity top
+set_instance_assignment -name XCVR_A10_RX_TERM_SEL R_R1 -to hip_serial_rx_in7 -entity top
+set_instance_assignment -name XCVR_A10_RX_ONE_STAGE_ENABLE NON_S1_MODE -to hip_serial_rx_in7 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_CTLE_ACGAIN_4S RADP_CTLE_ACGAIN_4S_0 -to hip_serial_rx_in7 -entity top
+set_instance_assignment -name XCVR_A10_RX_ADP_VGA_SEL RADP_VGA_SEL_4 -to hip_serial_rx_in7 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_rx_in7 -entity top
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to "top:top|altpcie_a10_hip_hwtcl:dut|app_rstn" -entity top
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to "top:top|altera_reset_controller:rst_controller|r_sync_rst" -entity top
+set_instance_assignment -name IO_STANDARD "1.8 V" -to dut_npor_pin_perst -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out0 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out1 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out2 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out3 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out4 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out5 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out6 -entity top
+set_instance_assignment -name XCVR_VCCR_VCCT_VOLTAGE 1_0V -to hip_serial_tx_out7 -entity top
+set_instance_assignment -name XCVR_REFCLK_PIN_TERMINATION DC_COUPLING_EXTERNAL_RESISTOR -to refclk_clk -entity top
+set_instance_assignment -name GLOBAL_SIGNAL REGIONAL_CLOCK -to "top:top|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1|altera_reset_synchronizer_int_chain_out" -entity top
+set_instance_assignment -name PARTITION_COLOUR 4294932146 -to top_hw -entity top
+set_instance_assignment -name PARTITION_COLOUR 4282140415 -to auto_fab_0 -entity top
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to top|rst_controller|alt_rst_sync_uq1|altera_reset_synchronizer_int_chain_out -entity top
+set_instance_assignment -name GLOBAL_SIGNAL REGIONAL_CLOCK -to top|rst_controller_001|alt_rst_sync_uq1|altera_reset_synchronizer_int_chain_out -entity top
+set_instance_assignment -name PARTITION_COLOUR 4281878783 -to top -entity top
+set_location_assignment M20K_X20_Y75_N0 -to top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|hip_inf|rx_input_data_reg_rtl_0|auto_generated|altera_syncram4|altsyncram5|ram_block6a162
+set_location_assignment M20K_X20_Y79_N0 -to top_hw|dut|dut|g_avmm_256_dma.avmm_256_dma.altpcieav_256_app|hip_inf|rx_input_data_reg_rtl_0|auto_generated|altera_syncram4|altsyncram5|ram_block6a128
+set_global_assignment -name VERILOG_FILE top.v
+set_global_assignment -name QSYS_FILE platform/top_hw.qsys
+set_global_assignment -name QIP_FILE platform/top_hw/top_hw.qip
+set_global_assignment -name IP_FILE platform/ip/top_hw/top_onchip_memory2_0.ip
+set_global_assignment -name IP_FILE platform/ip/top_hw/top_emif_0.ip
+set_global_assignment -name IP_FILE platform/ip/top_hw/top_DUT.ip
+set_global_assignment -name IP_FILE platform/ip/top_hw/top_clk_0.ip
+set_global_assignment -name SDC_FILE top.sdc

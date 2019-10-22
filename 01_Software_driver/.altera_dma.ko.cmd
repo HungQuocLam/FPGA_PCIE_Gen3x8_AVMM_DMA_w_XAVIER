@@ -1,0 +1,1 @@
+cmd_/home/ebots/AN829_driver/altera_dma.ko := ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/ebots/AN829_driver/altera_dma.ko /home/ebots/AN829_driver/altera_dma.o /home/ebots/AN829_driver/altera_dma.mod.o ;  true

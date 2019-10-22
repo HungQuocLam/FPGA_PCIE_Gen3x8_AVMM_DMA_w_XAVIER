@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:altera="http://www.altera.com/XMLSchema/Qsys/SystemTree">
+  <instanceKey xsi:type="xs:string">top_clk_0</instanceKey>
+  <instanceData xsi:type="data">
+    <parameters></parameters>
+    <interconnectAssignments></interconnectAssignments>
+    <className>top_clk_0</className>
+    <version>1.0</version>
+    <name>top_clk_0</name>
+    <uniqueName>top_clk_0</uniqueName>
+    <nonce>0</nonce>
+    <incidentConnections></incidentConnections>
+  </instanceData>
+  <children>
+    <node>
+      <instanceKey xsi:type="xs:string">clk_0</instanceKey>
+      <instanceData xsi:type="data">
+        <parameters>
+          <parameter>
+            <name>clockFrequency</name>
+            <value>250000000</value>
+          </parameter>
+          <parameter>
+            <name>clockFrequencyKnown</name>
+            <value>true</value>
+          </parameter>
+          <parameter>
+            <name>inputClockFrequency</name>
+            <value>250000000</value>
+          </parameter>
+          <parameter>
+            <name>resetSynchronousEdges</name>
+            <value>NONE</value>
+          </parameter>
+        </parameters>
+        <interconnectAssignments></interconnectAssignments>
+        <className>clock_source</className>
+        <version>19.2</version>
+        <name>clk_0</name>
+        <uniqueName>top_clk_0_clock_source_192_6ttu2pi</uniqueName>
+        <nonce>0</nonce>
+        <incidentConnections></incidentConnections>
+        <path>top_clk_0.clk_0</path>
+      </instanceData>
+      <children></children>
+    </node>
+  </children>
+</node>

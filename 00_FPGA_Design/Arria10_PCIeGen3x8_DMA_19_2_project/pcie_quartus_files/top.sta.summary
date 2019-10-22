@@ -1,0 +1,2800 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|dut|dut|pld_clk'
+Slack : 0.538
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.611
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 0.705
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 0.802
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.286
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 2.611
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 4.149
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 5.460
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Setup 'altera_reserved_tck'
+Slack : 12.481
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'altera_reserved_tck'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|dut|dut|pld_clk'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 2.757
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 4.193
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 4.219
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 6.778
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 15.503
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 15.883
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 15.980
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 16.001
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 16.037
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 16.230
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 16.253
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 17.115
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 17.293
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 17.502
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 17.599
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 17.620
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 17.638
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 17.656
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 17.849
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 17.872
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'altera_reserved_tck'
+Slack : 59.843
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'altera_reserved_tck'
+Slack : 0.632
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 8.518
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 8.526
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 8.740
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 8.778
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 8.792
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 8.840
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 9.229
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 9.336
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 9.991
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 10.011
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 10.180
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 10.208
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 10.246
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 10.294
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 10.627
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 12.070
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|twentynm_atx_pll_inst~O_CLK0_8G'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[1]_IN'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[5]_IN'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[0]_IN'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[2]_IN'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[3]_IN'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[4]_IN'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[6]_IN'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[7]_IN'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_serial_clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_0'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_1'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_2'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_1'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_2'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_10'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_3'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_4'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_5'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_6'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_7'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_8'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_9'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.655
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_0'
+Slack : 0.824
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_1'
+Slack : 0.825
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_2'
+Slack : 0.825
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[0]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[1]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[2]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[3]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[4]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[5]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[6]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[7]'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_clk'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[0]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[1]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[2]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[3]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[4]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[5]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[6]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[7]'
+Slack : 0.895
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|pll_pcie_clk'
+Slack : 0.909
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|hip_cmn_clk[0]'
+Slack : 0.926
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 1.539
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.595
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.763
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 1.764
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 1.764
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|pld_clk'
+Slack : 1.867
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|pma_hclk_by2'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 2.911
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 2.918
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 3.701
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_clkout'
+Slack : 3.861
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|tx_clk'
+Slack : 3.904
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'refclk_clk'
+Slack : 4.745
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 4.881
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 4.892
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 31.110
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.530
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.547
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.586
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.603
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.628
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.663
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.760
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.800
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.805
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.805
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.833
+
+Type  : Slow 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.872
+
+Type  : Slow 900mV 100C Model Net Delay 'set_net_delay'
+Slack : 2.635
+
+Type  : Slow 900mV 100C Model Net Delay 'set_net_delay'
+Slack : 2.689
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.563
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|dut|dut|pld_clk'
+Slack : 0.690
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 0.892
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 0.994
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.453
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 2.768
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 4.164
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 5.426
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Setup 'altera_reserved_tck'
+Slack : 12.470
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'altera_reserved_tck'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.060
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'top_hw|dut|dut|pld_clk'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.010
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 2.775
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 4.280
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 4.370
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 6.769
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 14.969
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 15.439
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 15.539
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 15.555
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 15.580
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 15.826
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 15.843
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 16.713
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 16.902
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 17.183
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 17.283
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 17.299
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 17.312
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 17.324
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 17.570
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 17.587
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'altera_reserved_tck'
+Slack : 60.010
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'altera_reserved_tck'
+Slack : 0.570
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 8.591
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 8.592
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 8.855
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 8.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 8.903
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 8.946
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 9.406
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 9.458
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 10.161
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 10.176
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 10.392
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 10.404
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 10.455
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 10.492
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 10.904
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 12.361
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|twentynm_atx_pll_inst~O_CLK0_8G'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[0]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[1]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[2]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[3]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[4]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[5]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[6]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[7]_IN'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_serial_clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_0'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_1'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_2'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_10'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_4'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_6'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_7'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_8'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_3'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_5'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_9'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_1'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_2'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.618
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_0'
+Slack : 0.809
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_1'
+Slack : 0.809
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_2'
+Slack : 0.809
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[0]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[1]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[2]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[3]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[4]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[5]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[6]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[7]'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_clk'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[0]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[1]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[2]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[3]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[4]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[5]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[6]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[7]'
+Slack : 0.874
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|pll_pcie_clk'
+Slack : 0.899
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|hip_cmn_clk[0]'
+Slack : 0.904
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 1.499
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.562
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.748
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 1.748
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 1.748
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|pld_clk'
+Slack : 1.837
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|pma_hclk_by2'
+Slack : 1.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 2.915
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 2.933
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 3.669
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_clkout'
+Slack : 3.825
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|tx_clk'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'refclk_clk'
+Slack : 4.721
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 4.862
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 4.866
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 31.062
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.520
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.526
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.568
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.583
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.606
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.618
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.754
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.781
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.791
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.801
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.821
+
+Type  : Slow 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.850
+
+Type  : Slow 900mV -40C Model Net Delay 'set_net_delay'
+Slack : 2.689
+
+Type  : Slow 900mV -40C Model Net Delay 'set_net_delay'
+Slack : 2.748
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.799
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.084
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 1.097
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|dut|dut|pld_clk'
+Slack : 1.345
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 1.458
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 1.483
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.889
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 3.692
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 4.973
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 6.246
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Setup 'altera_reserved_tck'
+Slack : 14.464
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'altera_reserved_tck'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|dut|dut|pld_clk'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.565
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 3.062
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 4.816
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 4.873
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 7.052
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 17.528
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 17.562
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 17.724
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 17.758
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 17.784
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 17.818
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 17.844
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 17.878
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 17.888
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 17.888
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 17.922
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 17.978
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 18.005
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 18.012
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 18.039
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 18.499
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Recovery 'altera_reserved_tck'
+Slack : 60.409
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'altera_reserved_tck'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 10.011
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 10.035
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 10.051
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 10.067
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 10.114
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 10.165
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 10.174
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 10.183
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 10.218
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 10.237
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 10.237
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 10.282
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 10.409
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 10.474
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 10.584
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 11.116
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|twentynm_atx_pll_inst~O_CLK0_8G'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_serial_clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[0]_IN'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[2]_IN'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[3]_IN'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[4]_IN'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[6]_IN'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[7]_IN'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[1]_IN'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'emif_0_mem_dqs[5]_IN'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_10'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_3'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_4'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_5'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_6'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_7'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_8'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_9'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_0'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_1'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_2'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_1'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_2'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.817
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_0'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_1'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_2'
+Slack : 0.885
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|pll_pcie_clk'
+Slack : 0.896
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[0]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[1]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[2]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[3]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[4]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[5]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[6]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[7]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_clk'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[0]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[1]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[2]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[3]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[4]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[5]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[6]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[7]'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|hip_cmn_clk[0]'
+Slack : 0.970
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 1.560
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.609
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.824
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 1.824
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 1.824
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|pld_clk'
+Slack : 1.939
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|pma_hclk_by2'
+Slack : 1.941
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 2.913
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 2.918
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 3.708
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|tx_clkout'
+Slack : 3.937
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|tx_clk'
+Slack : 3.955
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'refclk_clk'
+Slack : 4.905
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 4.950
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 31.067
+TNS   : 0.000
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.673
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.698
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.724
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.743
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.757
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.792
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.908
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.940
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.945
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.948
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.971
+
+Type  : Fast 900mV 100C Model Max Skew 'set_max_skew'
+Slack : 2.999
+
+Type  : Fast 900mV 100C Model Net Delay 'set_net_delay'
+Slack : 2.723
+
+Type  : Fast 900mV 100C Model Net Delay 'set_net_delay'
+Slack : 2.765
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.805
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 1.608
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.663
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 1.835
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|dut|dut|pld_clk'
+Slack : 1.853
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 1.859
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 2.210
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 4.192
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 5.191
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 6.437
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'altera_reserved_tck'
+Slack : 14.810
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'altera_reserved_tck'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.085
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 0.085
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|dut|dut|pld_clk'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 2.011
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 3.190
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 5.164
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 5.175
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 7.107
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 17.717
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 17.909
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 17.960
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 17.968
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 17.999
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 18.093
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 18.116
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 18.559
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 18.660
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 18.865
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 18.916
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 18.924
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 18.955
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 18.971
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 19.049
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 19.072
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'altera_reserved_tck'
+Slack : 60.852
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'altera_reserved_tck'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 9.089
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 9.103
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 9.206
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 9.226
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 9.255
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 9.266
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 9.455
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 9.602
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 10.011
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 10.031
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 10.113
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 10.128
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 10.168
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 10.179
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 10.348
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 11.066
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|twentynm_atx_pll_inst~O_CLK0_8G'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_serial_clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[0]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[1]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[2]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[3]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[4]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[5]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[6]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'emif_0_mem_dqs[7]_IN'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_10'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_3'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_4'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_5'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_6'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_7'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_8'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_9'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_0'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_1'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_wf_clk_2'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_1'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_vco_clk_2'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_bonding_clocks[0]'
+Slack : 0.827
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_0'
+Slack : 0.890
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_1'
+Slack : 0.891
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_2'
+Slack : 0.891
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_pma_clk'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[0]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[1]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[2]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[3]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[4]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[5]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[6]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_pcs_clk_div_by_4[7]'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_clk'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[0]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[1]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[2]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[3]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[4]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[5]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[6]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|rx_pcs_clk_div_by_4[7]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|pll_pcie_clk'
+Slack : 0.954
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|hip_cmn_clk[0]'
+Slack : 0.967
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_usr_clk'
+Slack : 1.549
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|wys~CORE_CLK_OUT'
+Slack : 1.675
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_0'
+Slack : 1.829
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_1'
+Slack : 1.830
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_phy_clk_l_2'
+Slack : 1.830
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|pld_clk'
+Slack : 1.938
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|pma_hclk_by2'
+Slack : 1.942
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_master_clk'
+Slack : 2.970
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_core_cal_slave_clk'
+Slack : 2.978
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|emif_0|emif_0_ref_clock'
+Slack : 3.736
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|tx_clkout'
+Slack : 3.934
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|tx_clk'
+Slack : 3.956
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'refclk_clk'
+Slack : 4.908
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[0]|rx_fref'
+Slack : 4.950
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[1]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[2]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[3]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[4]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[5]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[6]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'top_hw|dut|dut|g_xcvr_native_insts[7]|rx_fref'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 31.089
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.732
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.746
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.766
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.779
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.792
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.819
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.959
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.987
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.988
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 2.995
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 3.005
+
+Type  : Fast 900mV -40C Model Max Skew 'set_max_skew'
+Slack : 3.027
+
+Type  : Fast 900mV -40C Model Net Delay 'set_net_delay'
+Slack : 2.816
+
+Type  : Fast 900mV -40C Model Net Delay 'set_net_delay'
+Slack : 2.854
+
+------------------------------------------------------------
+Info: see the "DDR report" for DDR timing results
+------------------------------------------------------------
+------------------------------------------------------------
